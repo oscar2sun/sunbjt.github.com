@@ -1,12 +1,12 @@
 markdown: rdiscount 
 permalink: /:year/:month/:title 
-title: ÁõË¼†´@±´¼ªËşĞĞĞÇ
+title: åˆ˜æ€å–†@è´å‰å¡”è¡Œæ˜Ÿ
 url: http://bjt.name
-subscribe: http://bjt.name/feed.xml
+subscribe: http://bjt.name/feed
 exclude: [ README.md, newpost.rb ]
 domain: www.bjt.name
 author: bjt
 email: sunbjt@gmail.com
 auto: true
 twitterID: sunbjt
-duoshuoShortname: sunbjt
+duoshuoShortname: sunbjt 
