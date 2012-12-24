@@ -12,7 +12,7 @@ category:
 ---
 
 RHive 是一种通过HIVE高性能查询来扩展R计算能力的包。它可以在R环境中非常容易的调用HQL，
-也允许在Hive中使用R的对象和函数。理论上可以数据处理量可以无限扩展的Hive平台，搭配上数据挖掘的利器R环境，
+也允许在Hive中使用R的对象和函数。理论上数据处理量可以无限扩展的Hive平台，搭配上数据挖掘的利器R环境，
 堪称是一个完美的大数据分析挖掘的工作环境。
 
 # 环境配置
@@ -95,6 +95,8 @@ rhive是通过thrift连接hiveserver的，需要要启动后台thrift服务，�
 * rhive.exist.table：
 
 ## RHive 简单应用
+
+载入Rhive包，并连接HIVE，获取数据：
 
     library(RHive)
     rhive.connect(host = 'host_ip')
