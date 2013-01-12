@@ -5,7 +5,6 @@ permalink: /links/
 ---
 <div class="wrapper">
 <ul>
-<li><a href="http://fan.cos.name/cn/" target="_blank">explortfan</a></li>
 <li><a href="http://www.lijian001.com/r/" target="_blank">李舰</a></li>
 <li><a href="http://www.road2stat.com/" target="_blank">肖楠</a></li>
 <li><a href="http://li-and-jiang.com/blog/">胡江堂</a></li>
