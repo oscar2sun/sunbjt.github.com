@@ -2,8 +2,8 @@
 layout: post
 title: "爱情永远寂寞"
 tags: 
-- "\xE5\x85\xB4\xE8\xB6\xA3"
-- "\xE7\x88\xB1\xE6\x83\x85"
+- "兴趣"
+- "爱情"
 status: publish
 type: post
 published: true
