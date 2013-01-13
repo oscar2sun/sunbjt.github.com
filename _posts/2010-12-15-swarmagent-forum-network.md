@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "\xE4\xB9\x9F\xE7\x9C\x8B\xE9\x9B\x86\xE6\x99\xBA\xE5\xA4\xB4\xE8\x84\x91\xE9\xA3\x8E\xE6\x9A\xB4\xE8\xAE\xBA\xE5\x9D\x9B\xE7\x9A\x84\xE6\xA0\xB8\xE5\xBF\x83\xE7\xBB\x84\xE7\xBB\x87"
+title: "也看集智头脑风暴论坛的核心组织"
 tags: 
 - networks
 - sna
@@ -16,7 +16,7 @@ category:
 说实话，当时刚听完报告，还以为进入一个邪教组织了，呵呵～～
 
 2010年12月9日，集智俱乐部的 计算士 和 Jake 发布了
-[头脑风暴论坛数据分析报告(全文)](http://www.swarmagents.cn/bs/viewforum.asp?id=14358&amp;UrlTail=)。
+[头脑风暴论坛数据分析报告(全文)](http://www.swarmagents.cn/bs/viewforum.asp?id=14358)。
 报告很有趣，其中讲到了 Zipf 定律和以社会网络分析为主的网络骨架图。
 Jake 同时将头脑风暴论坛的数据[发布](http://www.swarmagents.cn/thesis/detail.asp?id=350)，数据为XML格式文件。而我，
 恰恰对头脑风暴论坛的兴趣也是非常浓厚，所以这边本地将这些数据处理了一下
