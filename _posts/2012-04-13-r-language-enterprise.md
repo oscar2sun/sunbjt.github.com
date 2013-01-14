@@ -10,8 +10,6 @@ tags:
 status: publish
 type: post
 published: true
-category:
-  - Big Data
 ---
 一直以来，我们在提到使用R进行数据分析、数据挖掘都会使用RODBC、RJDBC、DBI等相关的包来调用数据库，
 比如我前面罗嗦的一片文章[数据挖掘之R与SQL](http://bjt.name/2011/08/r-and-sql-datamining/)，

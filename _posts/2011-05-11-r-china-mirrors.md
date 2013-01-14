@@ -6,8 +6,6 @@ tags:
 status: publish
 type: post
 published: true
-category:
-  - Information
 ---
 前几天COS论坛上还在说中科大的R镜像还<a href="http://cos.name/cn/topic/104268" target="_blank">没弄好</a>，今天再看<a href="http://cran.r-project.org/mirrors.html" target="_blank">cran</a>，中科大的镜像已然可以正式使用。
 

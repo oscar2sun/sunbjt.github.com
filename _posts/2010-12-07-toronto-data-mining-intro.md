@@ -7,8 +7,6 @@ tags:
 status: publish
 type: post
 published: true
-category:
-  - Data Mining
 ---
 （我承认，这个是标题党！）
 

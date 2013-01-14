@@ -7,14 +7,6 @@ tags:
 status: publish
 type: post
 published: true
-category:
-  - Data Mining
-meta: 
-  _edit_last: "2"
-  _wp_old_slug: welfare-lottery
-  _efficient_related_posts: "a:5:{i:0;a:4:{s:2:\"ID\";s:5:\"10715\";s:10:\"post_title\";s:36:\"\xE5\x8F\xB2\xE4\xB8\x8A\xE6\x9C\x80\xE5\xBC\xBA\xE6\x82\x8D\xE7\x9A\x84\xE6\x95\xB0\xE6\x8D\xAE\xE6\x8C\x96\xE6\x8E\x98\xE4\xBB\x8B\xE7\xBB\x8D\";s:7:\"matches\";s:1:\"2\";s:9:\"permalink\";s:54:\"http://bjt.cos.name/2010/12/toronto-data-mining-intro/\";}i:1;a:4:{s:2:\"ID\";s:5:\"10654\";s:10:\"post_title\";s:34:\"Oracle\xE6\x95\xB0\xE6\x8D\xAE\xE5\xBA\x93\xE5\xBC\x80\xE5\xA7\x8B\xE6\x94\xAF\xE6\x8C\x81R\xE8\xAF\xAD\xE8\xA8\x80\";s:7:\"matches\";s:1:\"2\";s:9:\"permalink\";s:49:\"http://bjt.cos.name/2010/06/oracle-data-mining-r/\";}i:2;a:4:{s:2:\"ID\";s:5:\"10306\";s:10:\"post_title\";s:27:\"\xE6\x8F\x90\xE9\xAB\x98\xE5\x8F\x8C\xE8\x89\xB2\xE7\x90\x83\xE4\xB8\xAD\xE5\xA5\x96\xE6\xA6\x82\xE7\x8E\x87\";s:7:\"matches\";s:1:\"2\";s:9:\"permalink\";s:41:\"http://bjt.cos.name/2009/11/thunder-ball/\";}i:3;a:4:{s:2:\"ID\";s:4:\"9992\";s:10:\"post_title\";s:36:\"\xE5\x85\xB3\xE4\xBA\x8E\xE5\x9C\xA8hoopchina\xE4\xB8\x8A\xE5\x8F\x91\xE5\xB8\x96\xE7\x9A\x84\xE5\x9B\x9E\xE7\xAD\x94\";s:7:\"matches\";s:1:\"2\";s:9:\"permalink\";s:59:\"http://bjt.cos.name/2009/04/hoopchina-single-index-yaoming/\";}i:4;a:4:{s:2:\"ID\";s:4:\"9997\";s:10:\"post_title\";s:27:\"500\xE4\xB8\x87\xEF\xBC\x9F\xE5\x8E\xBB\xE4\xB9\xB0\xE5\x8F\x8C\xE8\x89\xB2\xE7\x90\x83\xEF\xBC\x81\";s:7:\"matches\";s:1:\"2\";s:9:\"permalink\";s:104:\"http://bjt.cos.name/2009/05/500%e4%b8%87%ef%bc%9f%e5%8e%bb%e4%b9%b0%e5%8f%8c%e8%89%b2%e7%90%83%ef%bc%81/\";}}"
-  _relation_threshold: "2"
-  dsq_thread_id: "609163407"
 ---
 <a href="http://news.sina.com.cn/s/2009-07-08/215318181309.shtml">深圳福彩3000万巨奖诈骗案</a>发生后，好多朋友开始质疑中国福利彩票的公正性，并向我询问福利彩票是不是真的如传闻那样--福利彩票自产自销？。由于身在中福彩的原因，很多支持福彩公正的内情不太合适发布在网上，但--数据一汇总，上帝也会发笑。这篇博文从一等奖中奖概率分布的角度给各位童鞋聊聊福彩的公正性。
 

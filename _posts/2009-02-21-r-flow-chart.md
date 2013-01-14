@@ -7,12 +7,6 @@ tags:
 status: publish
 type: post
 published: true
-meta: 
-  _edit_last: "2"
-  _wp_old_slug: "%e5%9c%a8-r-%e4%b8%ad%e5%ae%9e%e7%8e%b0%e6%b5%81%e7%a8%8b%e5%9b%be"
-  _efficient_related_posts: a:0:{}
-  _relation_threshold: ""
-  dsq_thread_id: "600837226"
 ---
 <div>一般来说，流程图大家比较习惯用 MS 的visio 来实现，或退而求其次使用 MS word 或 <a rel="nofollow" href="http://pcwin.com/Business___Finance/FlowBreeze_Standard_Flowchart_Software/screen.htm" target="_blank">Excel</a> 也可以实现相同功能。其实流程图是一种很简单的图形模式，R 的diagram 包也提供了 Flow Chart 功能，只不过使用命令行来实现：</div>
 <pre lang="rsplus">

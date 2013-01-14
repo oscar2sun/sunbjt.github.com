@@ -6,11 +6,6 @@ tags:
 status: publish
 type: post
 published: true
-meta: 
-  _edit_last: "2"
-  _efficient_related_posts: "a:1:{i:0;a:4:{s:2:\"ID\";s:5:\"10180\";s:10:\"post_title\";s:60:\"\xE4\xBB\x8E\xE4\xB8\x80\xE7\xAD\x89\xE5\xA5\x96\xE5\x87\xBA\xE7\x8E\xB0\xE7\x9A\x84\xE6\xA6\x82\xE7\x8E\x87\xE7\x9C\x8B\xE4\xB8\xAD\xE5\x9B\xBD\xE7\xA6\x8F\xE5\x88\xA9\xE5\xBD\xA9\xE7\xA5\xA8\xE7\x9A\x84\xE5\x85\xAC\xE6\xAD\xA3\xE6\x80\xA7\";s:7:\"matches\";s:1:\"1\";s:9:\"permalink\";s:52:\"http://bjt.cos.name/2009/07/welfare-lottery-justice/\";}}"
-  _relation_threshold: "1"
-  dsq_thread_id: "600837513"
 ---
 以前由于职业的原因，经常全国各地的乱飞。虽说飞机的出事概率仅仅相当于陆上交通工具的百分之一，但每次上飞机前，总会怯怯的问自己："这次上去能不能好好的下来？"上去的话，一般都是塞上耳机，打开笔记本--看 R。说实话，我还是更喜欢心灵的飞翔，而不是坐着飞机去感受加速度。
 

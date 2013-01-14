@@ -7,8 +7,6 @@ tags:
 status: publish
 type: post
 published: true
-category:
-  - Statistical Animation
 ---
 一篇放在草稿箱里一年多的博文。
 

@@ -7,8 +7,6 @@ tags:
 status: publish
 type: post
 published: true
-category:
-  - R Graphics
 ---
 纽约尼克斯华裔后卫林书豪0.5秒三分绝杀！在带领球队获得五连胜后，在对战猛龙队客场的比赛中，
 刚刚获得上周东部最佳球员的林书豪全场20投9中拿下27分11次助攻，终场前0.5秒，

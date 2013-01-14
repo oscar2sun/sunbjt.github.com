@@ -7,8 +7,6 @@ tags:
 status: publish
 type: post
 published: true
-category:
-  - R Graphics
 ---
 最近事情很多，每天下班回来，自己弄些东西吃，稀里糊涂就到了21点。跟着再浏览一下圈子信息，时间更是倏地一下就到了0点，然后第二天变熊猫……
 

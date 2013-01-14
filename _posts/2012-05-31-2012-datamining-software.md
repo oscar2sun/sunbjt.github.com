@@ -7,8 +7,6 @@ tags:
 status: publish
 type: post
 published: true
-category:
-  - Data Mining
 ---
 第13期KDnuggets 关于数据挖掘软件的[调查结果](http://www.kdnuggets.com/2012/05/top-analytics-data-mining-big-data-software.html)新鲜出炉，
 调查了对于过去的12个月里实际的项目过程中使用了哪些数据挖掘（分析）软件？

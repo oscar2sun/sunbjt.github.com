@@ -7,8 +7,6 @@ tags:
 status: unpublish
 type: post
 published: true
-category:
-  - application
 ---
 
 2012年最后一天，北京新开了四条地铁线，分别是6号线的一期、8号线一期的南段、9号线的北段、10号线二期。

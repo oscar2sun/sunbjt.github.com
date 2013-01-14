@@ -6,8 +6,6 @@ tags:
 status: publish
 type: post
 published: true
-category:
-  - Interesting
 ---
 最近一个月所有的业余时间基本上都是在准备会议材料，开会中度过的。且不说上周去杭州，被客户折磨了3天，居然临走也没有时间去西湖逛一逛，稀里糊涂的又从杭州赶回北京，参加大数据技术大会。
 

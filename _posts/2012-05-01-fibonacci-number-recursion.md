@@ -7,8 +7,6 @@ tags:
 status: publish
 type: post
 published: true
-category:
-  - R Computing
 ---
 前段时间在老家给小舅子补习高中数学，其中有一道数列的求解，题目是这样的：
 

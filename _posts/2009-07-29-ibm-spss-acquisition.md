@@ -7,8 +7,6 @@ tags:
 status: publish
 type: post
 published: true
-category:
-  - Information
 ---
 <a href="http://www.spss.com/">SPSS</a> 在首页显著位置公布 <a href="http://www.spss.com/ibm-announce/">An important message for our customers and partners</a>，同 IBM 共同宣布 SPSS 被收购的 definitive agreement。这 <a href="http://bjt.cos.name/2009/04/spss-pasw/">SPSS 改名</a>还没几天，又有了这么大的动作，BI 界不太平啊！
 

@@ -7,8 +7,6 @@ tags:
 status: publish
 type: post
 published: true
-category:
-  - R Graphics
 ---
 <a href="http://www.r-project.org">R</a> 各个镜像中的 <a href="http://ftp.ctex.org/mirrors/CRAN/web/packages/" target="_blank">Contributed Packages</a> 越来越多，截至今日，已经达到1950个，单单拉动鼠标把所有的 包名 从 A 到 Z 过一遍也得 10 几秒。随便考你一道：最后一个 R 包是啥？
 

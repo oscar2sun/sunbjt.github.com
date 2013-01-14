@@ -7,8 +7,6 @@ tags:
 status: publish
 type: post
 published: true
-category:
-  - life
 ---
 
 一般来说，大家喜欢使用微软的产品Power Point（PPT）来做幻灯片演示，但我对它基本没有什么好感，

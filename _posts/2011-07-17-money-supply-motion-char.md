@@ -7,8 +7,6 @@ tags:
 status: publish
 type: post
 published: true
-category:
-  - R Graphics
 ---
 <a href="http://bjt.cos.name/wp-content/uploads/2011/07/motion-chart.png">
 </a>在2008年，第一届中国R语言会议上，来自于艾瑞咨询的张翔为大家展示了一组极具震撼力的泡泡图，而这段视频便是Hans Rosling 在2006年 <a href="http://www.ted.com/talks/hans_rosling_shows_the_best_stats_you_ve_ever_seen.html" rel="nofollow">TED</a> 上的演讲，讲述的是1956年-2006年之间各国间的经济发展变化。虽然个人认为泡泡图的实现的技术并没有太多技术含量，但惊讶于Hans Rosling大智若愚的演讲能力，甚至再看完五六遍之后，仍然还会被其感染。

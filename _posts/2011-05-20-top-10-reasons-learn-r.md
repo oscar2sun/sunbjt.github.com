@@ -6,8 +6,6 @@ tags:
 status: publish
 type: post
 published: true
-category:
-  - Information
 ---
 原文链接在<a href="http://www.rcasts.com/2011/05/10-reasons-why-you-should-learn-r.html" target="_blank">这里</a>
 

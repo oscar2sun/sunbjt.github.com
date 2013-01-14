@@ -2,12 +2,10 @@
 layout: post
 title: "一个美丽的三角形"
 tags: 
-- algorithms
+- "算法"
 status: publish
 type: post
 published: true
-category:
-  - algorithms
 ---
 yanlinlin 站长放出个问题，按照<a href="http://blog.sciencenet.cn/home.php?mod=space&amp;uid=576779&amp;do=blog&amp;id=456080">《魔方与数学》</a>一文的后记上记录的：
 

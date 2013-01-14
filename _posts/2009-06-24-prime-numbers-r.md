@@ -2,16 +2,10 @@
 layout: post
 title: "\xE7\xB4\xA0\xE6\x95\xB0\xE7\x9A\x84\xE6\xB1\x82\xE6\xB3\x95"
 tags: 
-- algorithms
+- "算法"
 status: publish
 type: post
 published: true
-meta: 
-  _edit_last: "2"
-  _wp_old_slug: "%e7%b4%a0%e6%95%b0%e7%9a%84%e6%b1%82%e6%b3%95"
-  _efficient_related_posts: "a:2:{i:0;a:4:{s:2:\"ID\";s:5:\"10812\";s:10:\"post_title\";s:24:\"\xE4\xB8\x80\xE4\xB8\xAA\xE7\xBE\x8E\xE4\xB8\xBD\xE7\x9A\x84\xE4\xB8\x89\xE8\xA7\x92\xE5\xBD\xA2\";s:7:\"matches\";s:1:\"1\";s:9:\"permalink\";s:54:\"http://bjt.cos.name/2011/06/beautiful-math-triangle-r/\";}i:1;a:4:{s:2:\"ID\";s:4:\"9977\";s:10:\"post_title\";s:24:\"quantile \xE7\x9A\x84 9 \xE4\xB8\xAD\xE6\xB1\x82\xE6\xB3\x95\";s:7:\"matches\";s:1:\"1\";s:9:\"permalink\";s:53:\"http://bjt.cos.name/2008/10/quantile-nine-algorithms/\";}}"
-  _relation_threshold: "1"
-  dsq_thread_id: "600836357"
 ---
 COS 上有人问过如何<a href="http://cos.name/bbs/read.php?tid=12781">求1～100的素数</a>。虽说这个问题没准就是计算机系大一新生的一道作业题，但对我这个几乎没有任何 C 编程经验的人来说，似乎还是有些挑战。花了几分钟整理了一下思路，既然素数的定义是只能被1和自身整除，那么： 1、如果第 n 个数，不能它前面的所有的数字（不包括1）整除，那么即为定义。但需要遍历所有数字，效率肯定不好。 2、如果 n 不能被 n 前面的所有素数整除的话，那么 n 应该是下一个素数（后来知道这个是<a title="算术基本定理" href="http://zh.wikipedia.org/w/index.php?title=算术基本定理&amp;variant=zh-cn">算术基本定理</a>）。 根据第二点思路，写出 R 代码：
 <pre>prime2 &lt;- function(m){

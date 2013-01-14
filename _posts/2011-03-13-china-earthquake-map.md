@@ -6,8 +6,6 @@ tags:
 status: publish
 type: post
 published: true
-category:
-  - R Graphics
 ---
 闲话不说，直接上图：
 

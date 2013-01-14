@@ -5,8 +5,6 @@ tags:
 status: publish
 type: post
 published: true
-category:
-  - Interesting
 ---
 <p>记得高中生物课本上的彩页有一幅人类卵子和精子大小比较（下图），从那时起朦朦胧胧对这些微观世界的单位有些感知，但是这些单位具体多大？</p>
 <p><img height="204" width="168" alt="" src="http://bjt.cos.name/wp-content/uploads/sperm.png" /></p>

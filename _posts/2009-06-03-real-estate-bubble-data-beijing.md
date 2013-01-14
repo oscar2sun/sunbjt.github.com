@@ -5,12 +5,6 @@ tags:
 status: publish
 type: post
 published: true
-meta: 
-  _edit_last: "2"
-  _wp_old_slug: "%e6%88%bf%e5%9c%b0%e4%ba%a7%e6%b3%a1%e6%b2%ab%ef%bc%9f-%e5%be%97%e7%9e%85%e7%9e%85%e4%ba%86%ef%bc%81"
-  _efficient_related_posts: "a:1:{i:0;a:4:{s:2:\"ID\";s:5:\"10629\";s:10:\"post_title\";s:33:\"\xE5\x8C\x97\xE4\xBA\xAC\xE6\x88\xBF\xE5\x9C\xB0\xE4\xBA\xA7\xE7\xBD\x91\xE4\xB8\x8A\xE7\xAD\xBE\xE7\xBA\xA6\xE6\x83\x85\xE5\x86\xB5\";s:7:\"matches\";s:1:\"2\";s:9:\"permalink\";s:58:\"http://bjt.cos.name/2010/03/beijing-real-estate-contracts/\";}}"
-  _relation_threshold: "2"
-  dsq_thread_id: "600837511"
 ---
 房地产是个啥？这话题每每被俺们 80 后提起的时候，必然是捶胸顿足、长吁短叹，恨不得啖无良地商之肉，食腐败官员之血。俺们都介草民，大部分是 No Money, No House, No Woman 的主儿，没钱买房，瞅瞅成吧？
 

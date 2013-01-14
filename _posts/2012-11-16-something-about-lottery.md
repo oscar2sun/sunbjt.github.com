@@ -7,8 +7,6 @@ tags:
 status: publish
 type: post
 published: true
-category:
-  - Statistics
 ---
 前段时间应朋友之邀请，在新华社某个栏目做了一期小节目，主题是`彩票可不可以作为投资手段？` 正好，借着这个机会说说大家对彩票的误区。
 

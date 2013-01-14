@@ -6,8 +6,6 @@ tags:
 status: publish
 type: post
 published: true
-category:
-  - R Graphics
 ---
 还记得第一次看到<a href="http://en.wikipedia.org/wiki/Beijing_National_Aquatics_Center">水立方</a>时的惊讶么？
 

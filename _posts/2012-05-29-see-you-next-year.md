@@ -6,8 +6,6 @@ tags:
 status: publish
 type: post
 published: true
-category:
-  - 多愁善感
 ---
 在我还没回过神的时候，今年的R语言会议北京场己经结束，伴随着早上迷糊的送走李舰，意味着这次相聚终于曲终人散。本来我不是伤感的人，
 但今天看到怡轩师弟的一句微博：

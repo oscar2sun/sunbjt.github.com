@@ -7,13 +7,6 @@ tags:
 status: publish
 type: post
 published: true
-category:
-  - R Graphics
-meta: 
-  _edit_last: "2"
-  _relation_threshold: ""
-  _efficient_related_posts: a:0:{}
-  dsq_thread_id: "600836813"
 ---
 前一段时间，John Baez 在自己的主页上更新了一篇文章名为 <a href="http://math.ucr.edu/home/baez/roots/">The Beauty of Roots</a>，这篇文章之后在“科学松鼠会”上被 <a title="《多项式的根之美》" href="http://songshuhui.net/archives/23604.html" target="_blank">转载</a>。上面提到了曼德布洛特集（<a href="http://en.wikipedia.org/wiki/Mandelbrot_set"><strong>Mandelbrot set</strong></a>），根据其发明者法国数学家 <a title="Benoît Mandelbrot" href="http://commons.wikimedia.org/wiki/Beno%C3%AEt_Mandelbrot">Benoît Mandelbrot</a> 而命名。
 

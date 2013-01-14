@@ -7,8 +7,6 @@ tags:
 status: publish
 type: post
 published: true
-category:
-  - R Graphics
 ---
 [集智俱乐部](http://www.swarmagents.cn/)是我最近两年来比较关注的俱乐部，尤其集智在三号会所的线下活动，
 一帮来自五湖四海、背景迥异的年轻人，因为一个共同感兴趣的主题，各抒己见（头脑风暴），

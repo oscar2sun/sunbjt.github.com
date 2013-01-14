@@ -8,8 +8,6 @@ tags:
 status: publish
 type: post
 published: true
-category:
-  - Data Mining
 ---
 今天看到老同学<a href="http://weibo.com/n/JulieJulieJulieJulie" target="_blank">@JulieJulieJulieJulie</a> 的<a href="http://www.tudou.com/programs/view/g52FYAg63Kg/" target="_blank">浪漫求婚</a>，真的很浪漫、很唯美、很感动。正如评论说的，我们又相信爱情了！于是，小兴奋，睡不着，爬起来补一篇文章。
 

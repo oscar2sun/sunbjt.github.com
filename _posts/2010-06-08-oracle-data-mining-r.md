@@ -7,8 +7,6 @@ tags:
 status: publish
 type: post
 published: true
-category:
-  - R Computing
 ---
 一则令人兴奋的简讯：
 

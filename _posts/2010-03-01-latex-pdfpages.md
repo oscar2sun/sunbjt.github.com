@@ -7,11 +7,6 @@ tags:
 status: publish
 type: post
 published: true
-meta: 
-  _edit_last: "2"
-  _efficient_related_posts: a:0:{}
-  _relation_threshold: ""
-  dsq_thread_id: "600837282"
 ---
 2009年12月，hastie教授主页上更新了勘误后的The Elements of Statistical Learning II。这部机器学习领域的巨著，做数据挖掘或者统计分析的同行应该比较熟悉，不过这本书在美帝的 Amason 上要卖 80$，非常不符合中国特色的社会主义！
 

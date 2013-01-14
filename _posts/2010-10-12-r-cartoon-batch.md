@@ -7,13 +7,6 @@ tags:
 status: publish
 type: post
 published: true
-category:
-  - Z7Z8
-meta: 
-  _edit_last: "2"
-  _efficient_related_posts: "a:1:{i:0;a:4:{s:2:\"ID\";s:5:\"10720\";s:10:\"post_title\";s:18:\"\xE9\x82\xA3\xE5\x8F\xAA\xE5\xA5\x94\xE8\xB7\x91\xE7\x9A\x84\xE9\xA9\xAC\";s:7:\"matches\";s:1:\"1\";s:9:\"permalink\";s:48:\"http://bjt.cos.name/2011/11/running-horse-movie/\";}}"
-  _relation_threshold: "1"
-  dsq_thread_id: "600837423"
 ---
 声明1：估计这篇博文的受众会很少很少……
 

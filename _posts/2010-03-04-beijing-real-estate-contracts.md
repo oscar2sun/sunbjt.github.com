@@ -6,13 +6,6 @@ tags:
 status: publish
 type: post
 published: true
-category:
-  - Life
-meta: 
-  _edit_last: "2"
-  _efficient_related_posts: "a:1:{i:0;a:4:{s:2:\"ID\";s:5:\"10000\";s:10:\"post_title\";s:35:\"\xE6\x88\xBF\xE5\x9C\xB0\xE4\xBA\xA7\xE6\xB3\xA1\xE6\xB2\xAB\xEF\xBC\x9F- \xE5\xBE\x97\xE7\x9E\x85\xE7\x9E\x85\xE4\xBA\x86\xEF\xBC\x81\";s:7:\"matches\";s:1:\"2\";s:9:\"permalink\";s:60:\"http://bjt.cos.name/2009/06/real-estate-bubble-data-beijing/\";}}"
-  _relation_threshold: "2"
-  dsq_thread_id: "600837574"
 ---
 最近两会期间，房地产又一次成为焦点中的焦点，各位代表各抒己见，据说在政协的各项提案之中，关于房地产市场的提案几乎占据半壁江山。
 

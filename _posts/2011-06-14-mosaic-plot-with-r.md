@@ -6,8 +6,6 @@ tags:
 status: publish
 type: post
 published: true
-category:
-  - R Graphics
 ---
 又是一个R不务正业的例子。
 

@@ -7,8 +7,6 @@ tags:
 status: publish
 type: post
 published: true
-category:
-  - R Graphics
 ---
 话说到，前段时间给某省移动公司做无线音乐交叉推荐项目，做的事不亦乐乎。且不说涉及的数据挖掘的算法，单说歌曲这玩意儿有关的一些有趣的话题，就挺让人兴奋，比如：
 <ul>

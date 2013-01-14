@@ -7,8 +7,6 @@ tags:
 status: publish
 type: post
 published: true
-category:
-  - application
 ---
 
 RHive 是一种通过HIVE高性能查询来扩展R计算能力的包。它可以在R环境中非常容易的调用HQL，

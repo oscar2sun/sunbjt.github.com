@@ -7,8 +7,6 @@ tags:
 status: publish
 type: post
 published: true
-category:
-  - R Computing
 ---
 前些天在准备<a href="http://cos.name/chinar/chinar-2010/" target="_blank">中国第三届R语言会议（上海）</a>的时候，
 翻到以前记录在Google Notebook里的一些材料，

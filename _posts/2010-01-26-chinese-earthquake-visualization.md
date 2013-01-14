@@ -6,8 +6,6 @@ tags:
 status: publish
 type: post
 published: true
-category:
-  - R Graphics
 ---
 大自然的力量永远让人敬畏，<a href="http://en.wikipedia.org/wiki/Earth_quake" target="_blank">地震</a>、海啸、<a href="http://bjt.cos.name/2009/06/france-flight-poisson/" target="_blank">陨石</a>、雷击……因为我们在大自然的面前如此渺小，所以我们必须协作，必须发展科技，必须懂统计 ：）
 

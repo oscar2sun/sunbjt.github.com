@@ -9,8 +9,6 @@ tags:
 status: publish
 type: post
 published: true
-category:
-  - Information
 ---
 2011年3月14日，<a href="www.netezza.com">IBM Netezza</a> 同 <a href="http://www.revolutionanalytics.com">Revolution R Enterprise</a> 在 Netezza 数据仓库上搭载 Revolution Analytics 方面展开合作达成一致，二者将致力于整合 IBM Netezza’s i-class technology 和 Revolution 统计分析方面的卓越的能力。
 

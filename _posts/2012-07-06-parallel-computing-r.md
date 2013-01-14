@@ -7,8 +7,6 @@ tags:
 status: publish
 type: post
 published: true
-category:
-  - R Computing
 ---
 R 2.14.0版本以后，parallel包被作为核心包引入R，这个包主要建立在 multicore 和 snow 包的工作基础之上，包含了这两个包大部分功能函数，以及集成了随机数发生器。
 

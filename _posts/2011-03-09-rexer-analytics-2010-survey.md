@@ -7,8 +7,6 @@ tags:
 status: publish
 type: post
 published: true
-category:
-  - R Computing
 ---
 Rexer Analytics 关于数据挖掘的年度调查开始于 2007 年，本次（2010年）是第四次年度调查，原文链接在<a href="http://www.rexeranalytics.com/Data-Miner-Survey-Results-2010.html" target="_blank">这里</a>。
 

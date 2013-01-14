@@ -7,8 +7,6 @@ tags:
 status: publish
 type: post
 published: true
-category:
-  - Statistical Animation
 ---
 2011年3月11日日本福岛9.0级大地震以后，紧接着是海啸，跟着福岛核电厂接连发生爆炸。
 如果开始还可以说是电影《日本沉没》的剧情的话，那核电站爆炸的后果，可就有点像《生化危机》前奏的味道了。

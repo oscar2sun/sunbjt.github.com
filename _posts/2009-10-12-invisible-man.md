@@ -5,12 +5,6 @@ tags:
 status: publish
 type: post
 published: true
-meta: 
-  _edit_last: "2"
-  _wp_old_slug: invisible-ma
-  _efficient_related_posts: a:0:{}
-  _relation_threshold: ""
-  dsq_thread_id: "600836339"
 ---
 <p>在 <a href="http://visualfunhouse.com/">visualfunhouse</a> 看到一张视觉欺骗的图，非常有意思。</p>
 <p>闲话不说了，下面的图片里有一个人，找一找在哪里？</p>
