@@ -60,4 +60,4 @@ Ingo Feinerer开发维护的[tm](http://ftp.ctex.org/mirrors/CRAN/web/packages/t
 
 当然，作为非正式发布文档还有很多地方不尽完善，后续可能会有较大更新，请关注博客上的to do list。
 
-文档下载：[R语言环境下的文本挖掘](https://github.com/sunbjt/sunbjt.github.com/blob/master/upload/pdf/Text Mining in R.pdf)
+文档下载：[R语言环境下的文本挖掘](https://github.com/sunbjt/sunbjt.github.com/blob/master/upload/pdf/)
