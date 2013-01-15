@@ -20,11 +20,8 @@ published: true
 当然，统计背景的分析类科研人员更关注于舆情分析这类的文本挖掘技术。
 
 
-很多统计软件都提供了文本挖掘的功能，比如常见的数据分析软件SAS、SPSS等，
-下图是文本挖掘工具及特性的一个总结（来自于Journal of Statistical Software 2008）
-
-
-![](http://bjt.cos.name/wp-content/uploads/2012/03/tools.png)
+很多统计软件都提供了文本挖掘的功能，比如常见的数据分析软件SAS、SPSS等，以及一些语言如Python、Java，侧重点有所不同。
+但对于一般文本挖掘主要包括：
 
 
 * Preprocess：数据准备、导入、清洗以及一般性的预处理
@@ -63,4 +60,4 @@ Ingo Feinerer开发维护的[tm](http://ftp.ctex.org/mirrors/CRAN/web/packages/t
 
 当然，作为非正式发布文档还有很多地方不尽完善，后续可能会有较大更新，请关注博客上的to do list。
 
-文档下载：[R语言环境下的文本挖掘](http://bjt.cos.name/wp-content/uploads/2012/03/Text-Mining-in-R.pdf)
+文档下载：[R语言环境下的文本挖掘](https://github.com/sunbjt/sunbjt.github.com/blob/master/upload/pdf/Text Mining in R.pdf)
