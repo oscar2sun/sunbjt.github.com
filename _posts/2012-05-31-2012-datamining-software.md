@@ -13,8 +13,7 @@ published: true
 不出所料，底层语言使用频率最高的是依旧是R语言、SQL、Java和Python。
 而从软件工具角度上看，R、Excel和RapidMiner则名列三甲（去年R排名第二），具体排名如下图：
 
-
-![](http://bjt.cos.name/wp-content/uploads/2012/05/2012KDnuggets.png)
+<img src="/upload/pic/2012KDnuggets.png"/>
 
 
 可以看到，排名靠前的以开源软件为主，商业软件则相对靠后。造成这种现象的原因很多，其中一条比较重要的因素就是当今社会复杂的数据环境，

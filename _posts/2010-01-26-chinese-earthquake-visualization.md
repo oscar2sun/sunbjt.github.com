@@ -26,7 +26,7 @@ published: true
 
 这破坏级地震可不是闹着玩的，得仔细瞧瞧最近这地震都发生在哪里了，震级多大？是不是会对我们构成威胁！？于是有了下面这张图——最近一周中国及周边版图地震情况（1月20日至1月25日共计六天）：
 
-<a href="http://bjt.cos.name/wp-content/uploads/2010/01/earthquake.png"><img class="aligncenter size-full wp-image-10562" title="earthquake" src="http://bjt.cos.name/wp-content/uploads/2010/01/earthquake.png" alt="" width="730" height="653" /></a>
+![](/upload/pic/earthquake.png)
 
 数据童鞋们可以在<a href="http://data.earthquake.cn/datashare/globeEarthquake_csn.jsp" target="_blank">这里</a>查看，里面的震级需要注意一下，有Ms和ML两种，换算关系如下。但具体什么意思大家直接 wiki 好了。
 
@@ -47,6 +47,6 @@ published: true
 
 最后我们再回头看一下，最近一周地震的震级（ML）分布：
 
-<a href="http://bjt.cos.name/wp-content/uploads/2010/01/hist_earth.png"><img class="aligncenter size-medium wp-image-10565" title="hist_earth" src="http://bjt.cos.name/wp-content/uploads/2010/01/hist_earth-300x271.png" alt="" width="300" height="271" /></a>
+![](/upload/pic/hist_earth.png)
 
 至少可以长舒一口气，原来大部分都是小震，不具“破坏性”的居多。

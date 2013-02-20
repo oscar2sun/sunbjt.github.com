@@ -16,7 +16,8 @@ published: true
 （首先声明，房地产市场比较复杂，比如官啊、商啊、摇号啊、中介啊、银行啊、炒房团啊，空军、多军……指标忒多，所以我一直也没搞太明白。搞不明白也想凑一凑热闹，与时俱进嘛！扔两张图上来，大家笑笑）
 
 2008年9月1日至今的期房（不包含经适房、限价房）签约情况：
-<p style="text-align: center;"><a href="http://bjt.cos.name/wp-content/uploads/2010/03/amount1.png" target="_blank"><img class="size-full wp-image-10631 aligncenter" title="amount1" src="http://bjt.cos.name/wp-content/uploads/2010/03/amount1.png" alt="" width="800" height="600" /></a></p>
+
+![](/upload/pic/amount1.png)
 
 <div id="_mcePaste">其中的时点数据不包括：</div>
 <div>
@@ -30,7 +31,9 @@ published: true
 <div>假设2008年是期房市场正常年的话，那么2009年几乎可以用“疯狂”二字来标记北京的期房市场。每天平均400套的签约数量，动辄200、300万的房价，都贵成这样了，被谁买去啦？</div>
 <div><!--more--></div>
 <div>然后是北京存量房签约情况：</div>
-<div><a href="http://bjt.cos.name/wp-content/uploads/2010/03/amount2.png"><img class="size-full wp-image-10630 aligncenter" title="amount2" src="http://bjt.cos.name/wp-content/uploads/2010/03/amount2.png" alt="" width="800" height="600" /></a></div>
+
+![](/upload/pic/amount2.png)
+
 （不知为何，北京房地场交易网没有2008年9月1日至2008年10月14日数据。）
 
 存量房签约的情况大致和期房签约变化一致。同样是2008年的数量比较小，而到了2009年，市场开始癫狂。不过存量房签约套数变化有点意思:

@@ -21,7 +21,7 @@ published: true
 
 本场比赛火箭一共20个助攻，Brooks 和 Battier 分别助攻了最高的5个和4个。每次助攻都会涉及两位球员，那么本场比赛所有助攻结果综合在一起，即我们将助攻者和被助攻者之间的关系使用社会网络关系表现出来，会有一些有趣的现象：
 
-<a href="http://bjt.cos.name/wp-content/uploads/2010/01/hou.png"><img class="aligncenter size-full wp-image-10516" title="hou" src="http://bjt.cos.name/wp-content/uploads/2010/01/hou.png" alt="" width="485" height="449" /></a>
+![](/upload/pic/hou.png)
 
 注释：
 
@@ -47,7 +47,7 @@ published: true
 
 <hr />40场比赛助攻数据同时考虑，结果有些凌乱：
 
-<span style="text-decoration: line-through;"><a href="http://bjt.cos.name/wp-content/uploads/2010/01/hou40.png"><img class="aligncenter size-full wp-image-10529" title="hou40" src="http://bjt.cos.name/wp-content/uploads/2010/01/hou40.png" alt="" width="525" height="465" /></a></span>
+![](/upload/pic/hou40.png)
 
 注：这个赛季火箭队有一些球员实际上并没有真正的进入轮转，比如"Tracy McGrady","Mike Harris","Jermaine Taylor","Pops Mensah-Bonsu","Brian Cook"。虽然有些球员（比如麦蒂）的确对球队的（被）助攻仍有帮助，但贡献非常有限。出于结果整洁性的考虑，上图已将这些球员因素剔除。
 

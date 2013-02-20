@@ -25,7 +25,9 @@ zoo？
 为了简化起见，这里忽略了同其他包没有关系的包（当然并不是完全没有关系，所有的包都和 <a href="http://www.r-project.org">R</a> 或 <a href="http://www.r-project.org">R</a> 的基础包有关，如果这样计量的话，会导致所有的包都会指向 R）。
 
 首先截取了这个庞大网络的一部分：
-<p style="text-align: center;"><img class="aligncenter" src="http://bjt.cos.name/wp-content/uploads/2009/09/sna.png" alt="sna.png" width="630" height="578" /></p>
+
+![](/upload/pic/sna.png)
+
 从上图我们可以看到，标记点为215、271的两个包是我们研究的包网络中的两个关键点，这两个包分别是lattice、mvtnorm。
 
 关于这两个包：
@@ -40,10 +42,9 @@ zoo？
 当然，由于抽取的是一个子网络，很多的连接都被生硬地隔断，因此出现了大量的孤立点。
 
 如果我们把 CRAN 上的1950个包都放到我们的网络中会是这样：
-<p style="text-align: center;"><a href="http://bjt.cos.name/wp-content/uploads/2009/09/sna_black.png"><img class="aligncenter size-full wp-image-10794" title="R cran packages networks" src="http://bjt.cos.name/wp-content/uploads/2009/09/sna_black.png" alt="" width="800" height="500" /></a></p>
 
+![](/upload/pic/sna_black.png)
 
-<hr />
 
 最后说明：
 <ol>

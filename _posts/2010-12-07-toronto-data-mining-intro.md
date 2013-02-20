@@ -32,9 +32,9 @@ published: true
 
 首先是——描述：
 
-<a href="http://bjt.cos.name/wp-content/uploads/2010/12/dm1.png"><img class="aligncenter size-full wp-image-10716" title="description" src="http://bjt.cos.name/wp-content/uploads/2010/12/dm1.png" alt="" width="687" height="480" /></a>然后是——推断：
+![](/upload/pic/dm1.png)
 
-<a href="http://bjt.cos.name/wp-content/uploads/2010/12/dm2.png"><img class="aligncenter size-full wp-image-10717" title="inference" src="http://bjt.cos.name/wp-content/uploads/2010/12/dm2.png" alt="" width="645" height="703" /></a>
+![](/upload/pic/dm2.png)
 
 最后是<a href="mailto:saed.sayad@utoronto.ca"> S. Sayad</a> 教授的数据挖掘<a href="http://chem-eng.utoronto.ca/~datamining/dmc/data_mining_map.htm" target="_blank">在线 intro</a>，请猛击之！
 
