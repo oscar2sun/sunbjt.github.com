@@ -16,5 +16,5 @@ permalink: /todo/
 ## 完结 #
 
 - [153分钟学会R](http://cran.r-project.org/doc/contrib/Liu-FAQ.pdf)，还在缓慢的更新；
-- [R Reference Card](http://cran.r-project.org/doc/contrib/Liu-FAQ.pdf)，完结不再更新；
+- [R Reference Card](http://cran.r-project.org/doc/contrib/Liu-R-refcard.pdf)，完结不再更新；
 
