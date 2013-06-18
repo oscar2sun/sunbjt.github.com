@@ -17,4 +17,34 @@ published: true
 
 用的原图我就不贴了，实际上我是戴着眼镜的，马赛克平滑以后，不明显了。
 
-最后是[代码](/upload/pic/main.r)。非常简单，不到20行。大概所需要的时间：构思写代码1个小时，下载和整理图片时间长点，3个多小时（当然你本地资源和<a href="http://www.matrix67.com/blog" target="_blank">Matrix67</a>一样丰富的话另说，哈）。
+最后是代码，非常简单，不到20行：
+
+    setwd('D:/doc/image/me')
+    library(ReadImages)
+    library(sqldf)
+    me <- read.jpeg('fun.jpg')
+    meid <- data.frame(z = 1:1200, y = as.numeric(me))
+    meid <- sqldf('select * from meid order by y')
+    
+    setwd('D:/doc/image/others')
+    tmp <- NULL
+    for(i in dir()) tmp[[i]] <- read.jpeg(i)
+    id <- sapply(tmp, mean)
+    id <- data.frame(n = names(id), m = id)
+    id <- sqldf('select * from id order by m')
+    idx <- cbind(id, meid)
+    idx <- sqldf('select * from idx order by z')
+    
+    setwd('D:/doc/image')
+    png('me.png', height = 1000, width = 750)
+    par(mfcol = c(40,30), mar = rep(0,4), xpd = NA)
+    for(i in idx$n) plot(tmp[[i]])
+    dev.off()
+    
+    ## 处理图片 ##
+    setwd('D:/doc/image/others')
+    shell("convert *.jpg  -crop 120x120+10+5 thumbnail%03d.png")
+    shell("del *.jpg")
+    shell("convert -type Grayscale *.png thumbnail%03d.png")
+
+大概所需要的时间：构思写代码1个小时，下载和整理图片时间长点，3个多小时（当然你本地资源和<a href="http://www.matrix67.com/blog" target="_blank">Matrix67</a>一样丰富的话另说，哈）。
