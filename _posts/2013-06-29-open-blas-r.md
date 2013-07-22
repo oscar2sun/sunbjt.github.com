@@ -23,7 +23,7 @@ OpenBLAS 的编译还是比较方便的，如果没有特殊要求，下载直�
 
 OpenBLAS 环境安装完毕后，即可安装 R 环境，同一般安装 R 类似，需要增加如下参数：
 
-    ./configure --disable-nls --with-blas="-lopenblas"
+    ./configure --disable-nls --with-blas="-lopenblas" --with-lapack --enable-R-shlib
     make
     make install
 
