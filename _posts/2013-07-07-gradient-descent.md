@@ -9,8 +9,7 @@ type: post
 published: false
 ---
 
-
-Êý¾Ý
+æ•°æ®
 
     1 1 7.97
     2 1 10.2
@@ -18,75 +17,74 @@ published: false
     4 1 16.0
     5 1 21.2
 
-½Å±¾£º
+è„šæœ¬ï¼š
 
     A <- x[,1:2]
     b <- x[,3]
     C <- t(A) %*% A
     solve(C, t(A)%*%b)
 
-±ØÐë½«¾ØÕó×ª»¯Îª·½Õó²ÅÄÜ½øÐÐsolve£¬½á¹ûÍ¬
+å¿…é¡»å°†çŸ©é˜µè½¬åŒ–ä¸ºæ–¹é˜µæ‰èƒ½è¿›è¡Œsolveï¼Œç»“æžœåŒ
     
     lm(b ~ A)
 
+		A <- read.csv(textConnection("
+		3 2 4 0 0 0 0
+		1 0 1 0 0 0 0
+		0 1 2 0 0 0 0
+		0 0 0 1 1 1 1
+		0 0 0 1 0 1 1
+		0 0 0 3 2 2 3
+		"), header = FALSE, sep = ' ')
 
-A <- read.csv(textConnection("
-3 2 4 0 0 0 0
-1 0 1 0 0 0 0
-0 1 2 0 0 0 0
-0 0 0 1 1 1 1
-0 0 0 1 0 1 1
-0 0 0 3 2 2 3
-"), header = FALSE, sep = ' ')
 
-
-±±¾©¾©¶«ÊÀ¼ÍÃ³Ò×ÓÐÏÞ¹«Ë¾
+åŒ—äº¬äº¬ä¸œä¸–çºªè´¸æ˜“æœ‰é™å…¬å¸
 
 http://www.quuxlabs.com/blog/2010/09/matrix-factorization-a-simple-tutorial-and-implementation-in-python/
 
-# ¾ØÕó·Ö½âµÄÊýÑ§Ô­Àí
+# çŸ©é˜µåˆ†è§£çš„æ•°å­¦åŽŸç†
 
-Ê×ÏÈÔ¼¶¨Ò»ÏÂ·ûºÅ£¬¶ÔÓÚÓÃ»§£¨users£©µÄ¼¯ºÏ $$U$$£¬ÒÔ¼°ÉÌÆ·µÄ¼¯ºÏ $$D$$£¬ÓÃ$$R$$ À´±íÊ¾ÓÃ»§ÉÌÆ·ÐÅÏ¢µÄ¹²ÏÖ£¨$$U \times D $$£©¾ØÕó¡£ÎÒÃÇÏÖÔÚÏëÕÒ³ö K ¸öÇ±ÔÚµÄÌØÕ÷£¬¼´£ºÕÒµ½Á½¸öÐÂ¾ØÕóP£¨$$U \times K$$£©£¬Q£¨$$D \times K$$£©£¬Ê¹µÃ£º
+é¦–å…ˆçº¦å®šä¸€ä¸‹ç¬¦å·ï¼Œå¯¹äºŽç”¨æˆ·ï¼ˆusersï¼‰çš„é›†åˆ $$U$$ï¼Œä»¥åŠå•†å“çš„é›†åˆ $$D$$ï¼Œç”¨$$R$$ æ¥è¡¨ç¤ºç”¨æˆ·å•†å“ä¿¡æ¯çš„å…±çŽ°ï¼ˆ$$U \times D $$ï¼‰çŸ©é˜µã€‚æˆ‘ä»¬çŽ°åœ¨æƒ³æ‰¾å‡º K ä¸ªæ½œåœ¨çš„ç‰¹å¾ï¼Œå³ï¼šæ‰¾åˆ°ä¸¤ä¸ªæ–°çŸ©é˜µPï¼ˆ$$U \times K$$ï¼‰ï¼ŒQï¼ˆ$$D \times K$$ï¼‰ï¼Œä½¿å¾—ï¼š
 
 $R = P \times Q^T = \hat{R}$
 
-ÕâÊ±£¬P°üº¬ÁËËùÓÐµÄÓÃ»§£¨U£©µÄÏà¹ØÐÅÏ¢£¨ÌØÕ÷£©£¬¶øQÔò°üº¬ÁËÉÌÆ·µÄÏà¹ØÐÅÏ¢£¨ÌØÕ÷£©¡£ÄÇÈçºÎÕÒµ½ÕâÁ½¸ö¾ØÕóÄØ£¿
+è¿™æ—¶ï¼ŒPåŒ…å«äº†æ‰€æœ‰çš„ç”¨æˆ·ï¼ˆUï¼‰çš„ç›¸å…³ä¿¡æ¯ï¼ˆç‰¹å¾ï¼‰ï¼Œè€ŒQåˆ™åŒ…å«äº†å•†å“çš„ç›¸å…³ä¿¡æ¯ï¼ˆç‰¹å¾ï¼‰ã€‚é‚£å¦‚ä½•æ‰¾åˆ°è¿™ä¸¤ä¸ªçŸ©é˜µå‘¢ï¼Ÿ
 
-ÆäÖÐµÄÒ»ÖÖ·½·¨¾ÍÊÇÌÝ¶ÈÏÂ½µ£¨gradient descent£©£ºÊ×ÏÈÏÈ¸øP¡¢QÒ»Ð©³õÊ¼Öµ£¬È»ºó¼ÆËãRºÍ$$P \times Q$$µÄ²îÒì£¬½Ó×ÅÍ¨¹ýµü´ú×îÐ¡»¯¶þÕßµÄ²îÒì¡£Õâ¸ö²îÒìÎÒÃÇÒ»°ãÓÃÈçÏÂµÄ·½Ê½±íÊ¾£º
+å…¶ä¸­çš„ä¸€ç§æ–¹æ³•å°±æ˜¯æ¢¯åº¦ä¸‹é™ï¼ˆgradient descentï¼‰ï¼šé¦–å…ˆå…ˆç»™Pã€Qä¸€äº›åˆå§‹å€¼ï¼Œç„¶åŽè®¡ç®—Rå’Œ$$P \times Q$$çš„å·®å¼‚ï¼ŒæŽ¥ç€é€šè¿‡è¿­ä»£æœ€å°åŒ–äºŒè€…çš„å·®å¼‚ã€‚è¿™ä¸ªå·®å¼‚æˆ‘ä»¬ä¸€èˆ¬ç”¨å¦‚ä¸‹çš„æ–¹å¼è¡¨ç¤ºï¼š
 
 $e_{ij}^2 = (r_{ij} - \hat{r}_{ij})^2 = (r_{ij} - \sum_{k=1}^K p_{ik} q_{kj})^2$ 
 
-¶ÔÓÚÉÏÊ½£¬ÎÒÃÇ±ØÐëÕÒµ½Ò»¸ö·½ÏòÀ´ÓÅ»¯$$p_{ik},q_{kj}$$¡£»»¾ä»°Ëµ£¬ÎÒÃÇÐèÒªÖªµÀµ±Ç°ÖµµÄÌÝ¶ÈÏÂ½µ·½Ïò£º
+å¯¹äºŽä¸Šå¼ï¼Œæˆ‘ä»¬å¿…é¡»æ‰¾åˆ°ä¸€ä¸ªæ–¹å‘æ¥ä¼˜åŒ–$$p_{ik},q_{kj}$$ã€‚æ¢å¥è¯è¯´ï¼Œæˆ‘ä»¬éœ€è¦çŸ¥é“å½“å‰å€¼çš„æ¢¯åº¦ä¸‹é™æ–¹å‘ï¼š
 
 $\frac{\partial}{\partial p_{ik} e_{ij}^2} = -2(r_{ij} - \hat{r}_{ij})(q_{kj}) = -2 e_{ij}q_{kj}$
  
 $\frac{\partial}{\partial q_{ik} e_{ij}^2} = -2(r_{ij} - \hat{r}_{ij})(p_{ik}) = -2 e_{ij}p_{ik}$
 
-¼ÈÈ»ÒÔ¼°ÕÒµ½ÌÝ¶È£¬ÄÇÔòÓÐ
+æ—¢ç„¶ä»¥åŠæ‰¾åˆ°æ¢¯åº¦ï¼Œé‚£åˆ™æœ‰
 
 $p_{ik}^' = p_{ik} + 2\alpha e_{ij} q_{kj}$
 
 $q_{kj}^' = q_{kj} + 2\alpha e_{ij} p_{ik}$
 
-ÕâÀï$$\alpha$$ ÊÇÒ»¸ö³£Êý£¬¾ö¶¨ÌÝ¶ÈµÄ²½³¤£¬ÎªÁË±ÜÃâÔ½¹ý¾Ö²¿×îÓÅÖµ£¬ËùÒÔ$$\alpha$$Ò»°ã¶¼ÊÇÒ»¸öºÜÐ¡µÄÊý£¬±ÈÈç0.0002¡£
+è¿™é‡Œ$$\alpha$$ æ˜¯ä¸€ä¸ªå¸¸æ•°ï¼Œå†³å®šæ¢¯åº¦çš„æ­¥é•¿ï¼Œä¸ºäº†é¿å…è¶Šè¿‡å±€éƒ¨æœ€ä¼˜å€¼ï¼Œæ‰€ä»¥$$\alpha$$ä¸€èˆ¬éƒ½æ˜¯ä¸€ä¸ªå¾ˆå°çš„æ•°ï¼Œæ¯”å¦‚0.0002ã€‚
 
-ÁíÍâÒ»¸öÎÊÌâÓÐÀ´ÁË£º
+å¦å¤–ä¸€ä¸ªé—®é¢˜æœ‰æ¥äº†ï¼š
 
-> Èç¹ûÎÒÃÇÇóµÃµÄPºÍQµÄ³Ë»ýÍ¬RÍêÈ«Ò»ÖÂ£¬ÄÇÃ´Î´¹Û²âµÄÖµ£¨±íÊ¾ÎªÁãµÄÐÐÎª£©£¬ÒÀ¾ÉÊÇÁã¡£
+> å¦‚æžœæˆ‘ä»¬æ±‚å¾—çš„På’ŒQçš„ä¹˜ç§¯åŒRå®Œå…¨ä¸€è‡´ï¼Œé‚£ä¹ˆæœªè§‚æµ‹çš„å€¼ï¼ˆè¡¨ç¤ºä¸ºé›¶çš„è¡Œä¸ºï¼‰ï¼Œä¾æ—§æ˜¯é›¶ã€‚
 
-ÕâÀïÐèÒª³ÎÇåÒ»ÏÂ£º`ÎÒÃÇÖ»¶ÔÔ­Ê¼Êý¾Ý²»ÎªÁãµÄÔªËØÇó½â¶þÕß²îÒì£¬¶ø²»ÊÇÈ«²¿µÄÔªËØ¡£`
+è¿™é‡Œéœ€è¦æ¾„æ¸…ä¸€ä¸‹ï¼š`æˆ‘ä»¬åªå¯¹åŽŸå§‹æ•°æ®ä¸ä¸ºé›¶çš„å…ƒç´ æ±‚è§£äºŒè€…å·®å¼‚ï¼Œè€Œä¸æ˜¯å…¨éƒ¨çš„å…ƒç´ ã€‚`
 
 
-# ¹æÕû»¯ Regularization
+# è§„æ•´åŒ– Regularization
 
-ÎªÁË±ÜÃâ¹ýÄâºÏ£¬ÎÒÃÇÒ»°ã»áÒýÈëRegularizationÀ´×÷Îª³Í·£Ïî£¬Ò»°ãÊÇÒýÈëÒ»¸ö$$\beta$$À´ÐÞ¸ÄÎó²îµÄÆ½·½£º
+ä¸ºäº†é¿å…è¿‡æ‹Ÿåˆï¼Œæˆ‘ä»¬ä¸€èˆ¬ä¼šå¼•å…¥Regularizationæ¥ä½œä¸ºæƒ©ç½šé¡¹ï¼Œä¸€èˆ¬æ˜¯å¼•å…¥ä¸€ä¸ª$$\beta$$æ¥ä¿®æ”¹è¯¯å·®çš„å¹³æ–¹ï¼š
 
 
 $e_{ij}^2 = (r_{ij} - \sum_{k=1}^K p_{ik} q_{kj})^2 + \frac{\beta}{2} \sum_{k=1}^K(||P||^2 + ||Q||^2)$
 
-$$\beta$$ÓÃÀ´¿ØÖÆÓÃ»§ÌØÕ÷ºÍÉÌÆ·ÌØÕ÷µÄ³Ì¶È£¨magnitudes£©£¬±£Ö¤P¡¢Q¶ÔRµÄ½üËÆ£¬µ«²»»á³öÏÖÌ«´óµÄÊýÖµ¡£
+$$\beta$$ç”¨æ¥æŽ§åˆ¶ç”¨æˆ·ç‰¹å¾å’Œå•†å“ç‰¹å¾çš„ç¨‹åº¦ï¼ˆmagnitudesï¼‰ï¼Œä¿è¯Pã€Qå¯¹Rçš„è¿‘ä¼¼ï¼Œä½†ä¸ä¼šå‡ºçŽ°å¤ªå¤§çš„æ•°å€¼ã€‚
 
-ÕâÑùÌÝ¶ÈÏÂ½µµÄ¹æÔò¾Í±ä³ÉÁËÈçÏÂ£º
+è¿™æ ·æ¢¯åº¦ä¸‹é™çš„è§„åˆ™å°±å˜æˆäº†å¦‚ä¸‹ï¼š
 
 $p_{ik}^' = p_{ik} + 2\alpha e_{ij} q_{kj} - \beta p_{ik}$
 
