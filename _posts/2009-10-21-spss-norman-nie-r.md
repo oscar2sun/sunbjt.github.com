@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "SPSS \xE5\x88\x9B\xE7\xAB\x8B\xE8\x80\x85 Norman Nie \xE5\x8A\xA0\xE5\x85\xA5 R \xE7\xA4\xBE\xE5\x8C\xBA"
+title: SPSS 创立者 Norman Nie 加入 R 社区
 tags: 
 - Norman Nie
 - REvolution

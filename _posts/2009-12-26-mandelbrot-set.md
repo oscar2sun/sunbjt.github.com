@@ -1,9 +1,9 @@
 --- 
 layout: post
-title: "\xE6\x9B\xBC\xE5\xBE\xB7\xE5\xB8\x83\xE6\xB4\x9B\xE7\x89\xB9\xE9\x9B\x86"
+title: 曼德布洛特集
 tags: 
 - Mandelbrot set
-- "\xE7\xAE\x97\xE6\xB3\x95"
+- 分形
 status: publish
 type: post
 published: true

@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "Google\xEF\xBC\x8C\xE5\x85\xB6\xE5\xAE\x9E\xE4\xB8\x8D\xE6\x83\xB3\xE8\xB5\xB0"
+title: Google，其实不想走
 tags: 
 - google
 status: publish

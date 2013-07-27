@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "R\xE9\x95\x9C\xE5\x83\x8F\xE3\x80\x81SAS\xE3\x80\x81\xE5\x8F\x8AMySQL"
+title: R镜像、SAS、及MySQL
 tags: 
 - LaTeX
 status: publish
@@ -17,7 +17,7 @@ published: true
 
 关于SAS：
 
-4月30日，dapangmao在 <a href="http://www.mysas.net/sns/index.php" target="_blank">SAS圈子</a> 更新了一篇博客——<a href="http://www.mysas.net/sns/space.php?uid=808&amp;do=blog&amp;id=853" target="_blank">SAS, 一个华丽时代的结束</a>，具体内容我就不在这里转了。不过有些奇怪的是，评论没有硝烟，不知道是因为SAS太封闭还是大家争累了。
+4月30日，dapangmao在 <a href="http://www.mysas.net/sns/index.php" target="_blank">SAS圈子</a> 更新了一篇博客——<a href="http://www.mysas.net/sns/space.php?uid=808&amp;do=blog&amp;id=853" target="_blank">SAS, 一个华丽时代的结束</a>，具体内容我就不在这里转了。不过有些奇怪的是，评论没有硝烟，不知道是因为SAS太封闭还是大家争累了。
 
 ------------
 

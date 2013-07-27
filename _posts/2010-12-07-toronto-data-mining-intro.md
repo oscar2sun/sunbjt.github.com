@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "\xE5\x8F\xB2\xE4\xB8\x8A\xE6\x9C\x80\xE5\xBC\xBA\xE6\x82\x8D\xE7\x9A\x84\xE6\x95\xB0\xE6\x8D\xAE\xE6\x8C\x96\xE6\x8E\x98\xE4\xBB\x8B\xE7\xBB\x8D"
+title: 史上最强悍的数据挖掘介绍
 tags: 
 - crisp-dm
 - datamining
@@ -10,7 +10,7 @@ published: true
 ---
 （我承认，这个是标题党！）
 
-今儿看到 <a href="http://decisionstats.com/" target="_blank">Ajay Ohri</a> 那儿推荐了多伦多大学<a href="mailto:saed.sayad@utoronto.ca"> S. Sayad</a> 教授的关于数据挖掘的一个在线介绍。这个介绍包含了完整的数据挖掘过程，以及数据挖掘技术的分类，并且每一项都可以通过超链接到相应的分支。让人爱不释手，大赞之！
+今儿看到 <a href="http://decisionstats.com/" target="_blank">Ajay Ohri</a> 那儿推荐了多伦多大学<a href="mailto:saed.sayad@utoronto.ca"> S. Sayad</a> 教授的关于数据挖掘的一个在线介绍。这个介绍包含了完整的数据挖掘过程，以及数据挖掘技术的分类，并且每一项都可以通过超链接到相应的分支。让人爱不释手，大赞之！
 
 <a href="mailto:saed.sayad@utoronto.ca"> S. Sayad</a> 教授在数据挖掘过程定义上同从比较流行的 CRISP-DM（Cross Industry Standard Process for Data Mining）有些区别：
 <ol>

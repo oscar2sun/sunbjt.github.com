@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "\xE7\xBA\xAF\xE7\xB2\xB9\xE7\x9A\x84\xE6\x9D\x82\xE6\x84\x9F"
+title: 纯粹的杂感-关于数据分析
 tags: 
 - John Chambers
 - "R 语言"

@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "天下没有不散的筵席"
+title: 天下没有不散的筵席
 tags: 
 - "郁彬"
 status: publish

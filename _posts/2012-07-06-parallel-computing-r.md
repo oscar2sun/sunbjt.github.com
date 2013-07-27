@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "并行化你的运算-初识parallel包"
+title: 并行化你的运算-初识parallel包
 tags: 
 - high performance computing
 - parallel
@@ -8,7 +8,7 @@ status: publish
 type: post
 published: true
 ---
-R 2.14.0版本以后，parallel包被作为核心包引入R，这个包主要建立在 multicore 和 snow 包的工作基础之上，包含了这两个包大部分功能函数，以及集成了随机数发生器。
+R 2.14.0版本以后，parallel包被作为核心包引入R，这个包主要建立在 multicore 和 snow 包的工作基础之上，包含了这两个包大部分功能函数，以及集成了随机数发生器。
 
 
 实际上对于R来说，并行化可以在不同的层级上实现：比如，在最底层，现在的多核CPU可以实现一些基础的数值运算（比如整数和浮点算数）；
@@ -96,11 +96,11 @@ R 2.14.0版本以后，parallel包被作为核心包引入R，这个包主要建
 以及各类动态平衡的函数如parLapplyLB，请参见parallel包的帮助文档。
 
 注释1：OpenMPOpen Multiprocessing is 
-an [API](href="http://en.wikipedia.org/wiki/Application_programming_interface) that 
-supports multi-platform [Shared memory](http://en.wikipedia.org/wiki/Shared_memory) 
-[Multiprocessing](http://en.wikipedia.org/wiki/Multiprocessing) programming 
-in [C (programming language)](http://en.wikipedia.org/wiki/C_(programming_language)),
+an [API](href="http://en.wikipedia.org/wiki/Application_programming_interface) that 
+supports multi-platform [Shared memory](http://en.wikipedia.org/wiki/Shared_memory) 
+[Multiprocessing](http://en.wikipedia.org/wiki/Multiprocessing) programming 
+in [C (programming language)](http://en.wikipedia.org/wiki/C_(programming_language)),
 [C++](http://en.wikipedia.org/wiki/C%2B%2B), [Fortran](http://en.wikipedia.org/wiki/Fortran) 
-on most [Processor architecture](http://en.wikipedia.org/wiki/Processor_architecture) and 
+on most [Processor architecture](http://en.wikipedia.org/wiki/Processor_architecture) and 
 [Operating system](http://en.wikipedia.org/wiki/Operating_system).
 

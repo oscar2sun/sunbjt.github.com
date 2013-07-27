@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "\xE6\xB0\xB4\xE7\xAB\x8B\xE6\x96\xB9\xE5\x92\x8C Voronoi \xE5\x8E\x9F\xE7\x90\x86"
+title: 水立方和 Voronoi 原理
 tags: 
 - voronoi
 status: publish

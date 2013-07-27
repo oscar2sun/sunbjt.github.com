@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "\xE7\xAE\x80\xE8\xAE\xAF\xEF\xBC\x9A IBM Netezza \xE8\x81\x94\xE5\xA7\xBB R \xE8\xAF\xAD\xE8\xA8\x80\xE5\x95\x86\xE4\xB8\x9A\xE5\x85\xAC\xE5\x8F\xB8 Revolution"
+title: 简讯：IBM Netezza 联姻 R 语言商业公司 Revolution
 tags: 
 - IBM
 - Netezza
@@ -10,7 +10,7 @@ status: publish
 type: post
 published: true
 ---
-2011年3月14日，<a href="www.netezza.com">IBM Netezza</a> 同 <a href="http://www.revolutionanalytics.com">Revolution R Enterprise</a> 在 Netezza 数据仓库上搭载 Revolution Analytics 方面展开合作达成一致，二者将致力于整合 IBM Netezza’s i-class technology 和 Revolution 统计分析方面的卓越的能力。
+2011年3月14日，<a href="www.netezza.com">IBM Netezza</a> 同 <a href="http://www.revolutionanalytics.com">Revolution R Enterprise</a> 在 Netezza 数据仓库上搭载 Revolution Analytics 方面展开合作达成一致，二者将致力于整合 IBM Netezza’s i-class technology 和 Revolution 统计分析方面的卓越的能力。
 
 延伸阅读：
 <ul>

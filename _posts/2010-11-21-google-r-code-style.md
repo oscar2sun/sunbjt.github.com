@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "R\xE8\xAF\xAD\xE8\xA8\x80\xE7\x9A\x84\xE4\xBB\xA3\xE7\xA0\x81\xE8\xA7\x84\xE8\x8C\x83"
+title: R语言的代码规范
 tags: 
 - emacs
 - google
@@ -83,7 +83,7 @@ published: true
 	<li>版权声明</li>
 	<li>作者注释</li>
 	<li>文件说明，项目目的，输入和输出的说明</li>
-	<li><code>source()</code> 和 <code>library()</code> 说明</li>
+	<li><code>source()</code> 和 <code>library()</code> 说明</li>
 	<li>函数定义</li>
 	<li>其他</li>
 </ol>

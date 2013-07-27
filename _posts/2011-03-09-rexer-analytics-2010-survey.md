@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "Rexer Analytics 2010\xE5\xB9\xB4\xE5\xBA\xA6\xE6\x95\xB0\xE6\x8D\xAE\xE6\x8C\x96\xE6\x8E\x98\xE8\xB0\x83\xE6\x9F\xA5"
+title: Rexer Analytics 2010年度数据挖掘调查
 tags: 
 - data mining
 - Survey
@@ -30,7 +30,7 @@ Rexer Analytics 关于数据挖掘的年度调查开始于 2007 年，本次（2
 
 5.工具
 
-随着过去几年稳定的增长，开源数据挖掘软件R已经成为挖掘人员的首选（43%），其次是 STATISTICA（18%）。STATISTICA、IBM SPSS Modeler 和 R 在2009、2010年被参与调查的挖掘人员给了最高满意得分。
+随着过去几年稳定的增长，开源数据挖掘软件R已经成为挖掘人员的首选（43%），其次是 STATISTICA（18%）。STATISTICA、IBM SPSS Modeler 和 R 在2009、2010年被参与调查的挖掘人员给了最高满意得分。
 
 6.技能
 

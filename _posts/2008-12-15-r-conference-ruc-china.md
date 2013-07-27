@@ -1,10 +1,9 @@
 --- 
 layout: post
-title: "\xE6\x9C\x89\xE6\x84\x8F\xE6\x80\x9D\xE7\x9A\x84R\xEF\xBC\x8C\xE6\x9C\x89\xE6\x84\x8F\xE6\x80\x9D\xE7\x9A\x84\xE5\xA4\xA7\xE5\xAE\xB6"
+title: 第一届 R 语言会议随记
 tags: 
-- "R \xE4\xBC\x9A\xE8\xAE\xAE"
-- "R \xE8\xAF\xAD\xE8\xA8\x80"
-- "\xE6\x8A\x80\xE5\xB7\xA7\xE9\x9A\x8F\xE7\xAC\x94"
+- R 会议
+- 朋友们
 status: publish
 type: post
 published: true
@@ -15,7 +14,7 @@ published: true
 	<li>Guohui Ding：传说中的那位，开始我一直以为是40、50岁的老头子呢，结果和自己同年生。下了飞机就直奔会场，敬业。大赞那个网络关系图，学基因的就是不一样。and 刚从德国带回来的那本让人狂吐的杂志：</li>
 <a href="http://byfiles.storage.msn.com/y1pZsomzbTCQziow7dprpjViLI1ZvVVYixxc9I010rtCMpMGA762EcOpvaA4Lap7ma_Li0ecs2diB4GWyn1sHYrBA?PARTNER=WRITER"><img style="display: inline; border: 0px;" title="照片-0123" src="http://byfiles.storage.msn.com/y1pEo312O4DlUxBnfrbwkl6k5YzB6ij8VtuzeEhFOwx4I8JzkuRqs3KxSc2Klg00meXK3kynSwtyAQOy6LhrbPB7w?PARTNER=WRITER" border="0" alt="照片-0123" width="334" height="374" /></a>
 	<li>吴喜之老师：跟老师混这么多年，头一次看到吴老会在一个地儿坐一天（旁白：俺啥时候能学吴老的一招半式，也就能独步武林了）</li>
-	<li>Peng Zhan：……不重要，R 重要……险些笑翻我  ^_^</li>
+	<li>Peng Zhan：……不重要，R 重要……险些笑翻我  ^_^</li>
 	<li>Tan Xi：这两个小伙，有前途啊</li>
 	<li>Gang Chen：原来生物和遗传应用这么个广泛，孤陋寡闻了</li>
 	<li>Lipeng Hou：一直以为是个mm，哈</li>

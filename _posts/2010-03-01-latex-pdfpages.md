@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "\xE7\x94\xA8LaTeX\xE6\x94\xBE\xE5\xA4\xA7pdf\xE6\x96\x87\xE6\xA1\xA3"
+title: 用 LaTeX 放大 pdf 文档
 tags: 
 - ESLII
 - LaTeX

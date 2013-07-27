@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "\xE7\xB4\xA0\xE6\x95\xB0\xE7\x9A\x84\xE6\xB1\x82\xE6\xB3\x95"
+title: 素数的求法
 tags: 
 - "算法"
 status: publish

@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "\xE9\x97\xB2\xE8\x81\x8AR"
+title: 闲聊 R
 tags: 
 - SAS
 - SPSS

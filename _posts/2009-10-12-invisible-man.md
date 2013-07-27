@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "\xE9\x9A\x90\xE5\xBD\xA2\xE4\xBA\xBA"
+title: 隐形人
 tags: 
 status: publish
 type: post

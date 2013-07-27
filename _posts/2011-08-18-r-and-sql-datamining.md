@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "\xE6\x95\xB0\xE6\x8D\xAE\xE6\x8C\x96\xE6\x8E\x98\xE4\xB9\x8BR\xE4\xB8\x8ESQL"
+title: 数据挖掘之R与SQL
 tags: 
 - datamining
 - Oracle
@@ -53,7 +53,7 @@ published: true
 
 
 <ul>
-	<li>各大数据库厂商已经开发了相关的支持R语言的数据挖掘套件，比如Oracle的<a href="http://ftp.ctex.org/mirrors/CRAN/web/packages/RODM/index.html">RODM</a>，Teradata的 <a id="download-6865-7769-0" href="https://downloads.teradata.com/download/applications/teradata-r/1.0">teradataR</a>等。</li>
+	<li>各大数据库厂商已经开发了相关的支持R语言的数据挖掘套件，比如Oracle的<a href="http://ftp.ctex.org/mirrors/CRAN/web/packages/RODM/index.html">RODM</a>，Teradata的 <a id="download-6865-7769-0" href="https://downloads.teradata.com/download/applications/teradata-r/1.0">teradataR</a>等。</li>
 	<li>R本身就可以通过扩展包来对数据库执行SQL，这时你可以把R语言作为调度环境。R的计算过程结果可以直接作为参数传递到数据库中，并将相应的结果返回，供R环境使用。</li>
 	<li>通过sqldf包，在R内部使用标准SQL对数据进行预处理，包括group by，order by，join，where等操作。</li>
 	<li>当然R最重要的用途是将数据挖掘的结果转义为标准SQL语言，利用数据库来实现挖掘结果。当然有人说了，不是有pmml可以将模型嵌入到数据库么？！扯！到现在我也没见pmml成为应用标准，老老实实的将模型结果转义到SQL才是王道。比如用于概率预测的Logistic回归或者分类模型的Tree-based Models，这些模型的转义工作都不难，这样最终的工程实施都脱离了R环境，更具通用性，且利用了数据库的高速性能。</li>

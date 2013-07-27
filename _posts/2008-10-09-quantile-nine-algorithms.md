@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "quantile \xE7\x9A\x84 9 \xE4\xB8\xAD\xE6\xB1\x82\xE6\xB3\x95"
+title: quantile 的 9 中求法
 tags: 
 - "算法"
 status: publish

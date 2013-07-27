@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "Oracle\xE6\x95\xB0\xE6\x8D\xAE\xE5\xBA\x93\xE5\xBC\x80\xE5\xA7\x8B\xE6\x94\xAF\xE6\x8C\x81R\xE8\xAF\xAD\xE8\xA8\x80"
+title: Oracle数据库开始支持R语言
 tags: 
 - datamining
 - Oracle
@@ -18,7 +18,7 @@ R-ODM is especially useful for:
 <ul>
 	<li>Quick prototyping of vertical or domain-based applications where the Oracle Database supports the application</li>
 	<li>Scripting of "production" data mining methodologies</li>
-	<li>Customizing graphics of ODM data mining results (examples: <a href="http://www.oracle.com/technology/products/bi/odm/images/rodm_classification.jpg">classification</a>, <a href="http://www.oracle.com/technology/products/bi/odm/images/rodm_regression.jpg">regression</a>, <a href="http://www.oracle.com/technology/products/bi/odm/images/rodm_anomaly_detection.jpg">anomaly detection</a>)</li>
+	<li>Customizing graphics of ODM data mining results (examples: <a href="http://www.oracle.com/technology/products/bi/odm/images/rodm_classification.jpg">classification</a>, <a href="http://www.oracle.com/technology/products/bi/odm/images/rodm_regression.jpg">regression</a>, <a href="http://www.oracle.com/technology/products/bi/odm/images/rodm_anomaly_detection.jpg">anomaly detection</a>)</li>
 </ul>
 众所周知，R在实现原型算法方面有着不可替代的巨大优势。诚然，通过R实现的一般性数据挖掘算法都可以嵌入到数据库中，但Oracle提供的这个接口，极大地提高了挖掘算法的部署效率。
 
