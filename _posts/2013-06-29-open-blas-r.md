@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-话说 2010 年我和鸟兄去豆瓣做一个技术交流，阿稳现场展示了并行化计算的 R 环境，矩阵运算瞬间跑满了所有的 CPU，当时让我羡慕不已。多年之后在[第六届R语言会议](http://cos.name/2013/05/6th-china-r-beijing-summary/)上，张先轶为大家展示了他们负责跟进研发的开源线性代数计算库 [OpenBLAS](http://xianyi.github.io/OpenBLAS/)，这个库建立在已经停止开发的 GotoBLAS2 上，对 Intel Sandy Bridge 有非常好的支持（性能上甚至同 MKL 不相上下）。
+话说 2010 年我和鸟兄去豆瓣做一个技术交流，阿稳现场展示了并行化计算的 R 环境，矩阵运算瞬间跑满了所有的 CPU，当时让我羡慕不已。多年之后在 [第六届 R 语言会议](http://cos.name/2013/05/6th-china-r-beijing-summary/) 上，张先轶为大家展示了他们负责跟进研发的开源线性代数计算库 [OpenBLAS](http://xianyi.github.io/OpenBLAS/)，这个库建立在已经停止开发的 GotoBLAS2 上，对 Intel Sandy Bridge 有非常好的支持（性能上甚至同 MKL 不相上下）。
 
 线性代数库是 R 底层天然的并行运算的极好支持（Revolution R 使用的 MKL 库的支持），可以有效的提高 R 的计算效率。这里要再次感谢中科院张先轶的贡献！
 
@@ -17,7 +17,10 @@ published: true
 
 OpenBLAS 的编译还是比较方便的，如果没有特殊要求，下载直接执行快速安装即可
 
-> 使用 make 即可自行依照环境安装
+    make
+    make install
+
+即可自行依照环境安装相关组件。
 
 # R 的编译
 
