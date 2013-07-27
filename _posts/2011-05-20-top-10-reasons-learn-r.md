@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "\xE4\xB8\xBA\xE4\xBB\x80\xE4\xB9\x88\xE8\xA6\x81\xE5\xAD\xA6\xE4\xB9\xA0R\xE7\x9A\x84\xE5\x8D\x81\xE5\xA4\xA7\xE7\x90\x86\xE7\x94\xB1"
+title: 为什么要学习R的十大理由
 tags: 
 - R
 status: publish
@@ -31,23 +31,23 @@ published: true
 
 ********
 
-<strong>10</strong>. Can't crack that <a href="http://www.usatoday.com/news/offbeat/2006-11-06-sudoku_x.htm" target="_blank">hard Sudoku problem</a>?? <a href="https://gist.github.com/982555" target="_blank">Use R</a>!
+<strong>10</strong>. Can't crack that <a href="http://www.usatoday.com/news/offbeat/2006-11-06-sudoku_x.htm" target="_blank">hard Sudoku problem</a>?? <a href="https://gist.github.com/982555" target="_blank">Use R</a>!
 
-<strong>9</strong>. Want to pick a skill that will give you an early adopter advantage?? Learn R! It is the leading open source statistical and data analysis programming language, and is heating up!
+<strong>9</strong>. Want to pick a skill that will give you an early adopter advantage?? Learn R! It is the leading open source statistical and data analysis programming language, and is heating up!
 
-<strong>8</strong>. Need to run statistical calculations in your software application?? Deploy R! It integrates with many programming languages like Java, Ruby, C++, Python
+<strong>8</strong>. Need to run statistical calculations in your software application?? Deploy R! It integrates with many programming languages like Java, Ruby, C++, Python
 
-<strong>7</strong>. Looking for reusable libraries to solve a complex problem?? Get R! It has 2<a href="http://cran.r-project.org/web/views/" target="_blank">000+ free libraries</a> to use in areas of finance, natural language processing, cluster analysis, optimization, prediction, high performance computing etc.
+<strong>7</strong>. Looking for reusable libraries to solve a complex problem?? Get R! It has 2<a href="http://cran.r-project.org/web/views/" target="_blank">000+ free libraries</a> to use in areas of finance, natural language processing, cluster analysis, optimization, prediction, high performance computing etc.
 
-<strong>6</strong>. No Windows, No Doors - R runs on all the platforms. Just name it and you got it!! Windows PC, Mac, Linux to name a few
+<strong>6</strong>. No Windows, No Doors - R runs on all the platforms. Just name it and you got it!! Windows PC, Mac, Linux to name a few
 
-<strong>5</strong>. Did you know how much fun stats can be- Try R!!
+<strong>5</strong>. Did you know how much fun stats can be- Try R!!
 
-<strong>4</strong>. Are you updated with the current trends?? Leading firms like NY Times, Google, Facebook, Bank of America, Pfizer, Merck are all using R, where are you??
+<strong>4</strong>. Are you updated with the current trends?? Leading firms like NY Times, Google, Facebook, Bank of America, Pfizer, Merck are all using R, where are you??
 
 <strong>3</strong>. Need to run your own analysis?? Need to solve an optimization problem?? Struggling with Excel or SQL in your model??..... just few statements away - Try R!!
 
-<strong>2</strong>. Want to create a <a href="http://www.facebook.com/notes/facebook-engineering/visualizing-friendships/469716398919" target="_blank">compelling chart</a>?? Try R!
+<strong>2</strong>. Want to create a <a href="http://www.facebook.com/notes/facebook-engineering/visualizing-friendships/469716398919" target="_blank">compelling chart</a>?? Try R!
 
-<strong>1</strong>. Want the coolest job in 2014?? Learn Statistics. It is the future. Data Scientists will be the <a href="http://www.rcasts.com/2011/03/why-learn-r.html" target="_blank">sexy job in 2018</a>.
+<strong>1</strong>. Want the coolest job in 2014?? Learn Statistics. It is the future. Data Scientists will be the <a href="http://www.rcasts.com/2011/03/why-learn-r.html" target="_blank">sexy job in 2018</a>.
 

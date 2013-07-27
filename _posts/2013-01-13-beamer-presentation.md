@@ -112,4 +112,4 @@ Ignorant Audience Law说：一些重要的听众所知要远比你想象的少�
 最后是一些资源：
 
 * 第一个是beamer的 [theme matrix](http://www.hartwork.org/beamer-theme-matrix/)，可以很容易的看到各个theme的式样
-* 我自己常用模板的自定义设置（稍后更新）
+* 我自己常用模板的自定义设置 [下载TeX](/upload/pdf/presentation.tex)，xeLaTeX编译
