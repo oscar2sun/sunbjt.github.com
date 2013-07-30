@@ -42,7 +42,7 @@ permalink: /about/
 - 2013.04 – 2013.06  刘思喆  《大规模数据的奇异值分解推荐引擎》 SVD
 - 2013.02 – 2013.02  刘思喆  《潜在用户识别模型》 elastic net
 - 2012.12 – 2012.12  刘思喆  《基于京东评论的新词识别模型》 N Gram
-- 2012.09 – 2012.10  刘思喆  《京东商城“不良”商品识别模型》 LASSO
+- 2012.09 – 2012.10  刘思喆  《京东商城"不良"商品识别模型》 LASSO
 - 2011.05 – 2012.06  刘思喆  《京东商城价格弹性模型》 LM
 - 2011.12 – 2012.02  刘思喆  《网站内容分类识别模型》 Support Vecter Machine
 - 2011.07 – 2011.09  刘思喆  《某省电信公司客户流失挖掘专题》 Random Forest
@@ -65,15 +65,19 @@ permalink: /about/
 ## 联络方式 ##
 
 ### 微博：###
+
 <a href="http://weibo.com/u/1864823707?s=6uyXnP" target="_blank">
 <img border="0" src="http://service.t.sina.com.cn/widget/qmd/1864823707/7a1f59f4/1.png"/></a>
 
 
 ### 邮件: ###
-<img src="/upload/image/at_sign.gif" alt="at_sign" style="float:left"/>
+
+![](/upload/image/at_sign.gif)
+
+邮件太多，不能及时回复，一般都会压一段时间，请大家原谅～
 
 -----
+
 -----
  
-
 

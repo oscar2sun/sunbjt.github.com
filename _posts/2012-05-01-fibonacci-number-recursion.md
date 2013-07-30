@@ -23,12 +23,12 @@ published: true
 比如我们常说的黄金分割比（1.618），即是两个相邻费波那西数的比值
 
 
-`f(n + 1)/f(n) = (1 + sqrt(5))/2`
+`f(n + 1)/f(n) = (1 + sqrt(5))/2`
 
 
 还有美丽的向日葵的花盘中果实：
 
-![](http://bjt.cos.name/wp-content/uploads/2012/05/sunflower.jpg)
+![](http://www.uux.cn/attachments/2013/06/1_201306201346111LS9N.jpg)
 
 
 这个序列虽说非常有意思，但我当时并没有意识到在R中求解费波那西序列的时间问题。
