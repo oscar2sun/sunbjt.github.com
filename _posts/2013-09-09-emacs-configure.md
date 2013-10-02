@@ -10,10 +10,16 @@ published: true
 ---
 
 
-我陆陆续续尝试使用Emacs已经该有7、8回了，每次都受不了它繁琐的Ctrl和Meta组合键，但最近不知道哪根筋出了问题，不但编辑器迅速的切换到了Emacs，甚至
+陆陆续续尝试使用Emacs已经该有7、8回了，每次都受不了它繁琐的Ctrl和Meta组合键，但最近不知道哪根筋出了问题，不但编辑器迅速的切换到了Emacs，甚至
 操作系统也从Win 7平滑到了Ubuntu。以下记录一些关于Emacs、markdown、Ubuntu、ssh乱七八糟的东东。
 
-老板最近推行markdown来记录技术文档，并且在内网构建了一个markdown的wiki系统。刚好自己也一直在用md，比如现在的这个搭建在github上的静态页面博客。
+开源体系下，我的软件之路差不多是下面这样的：
+
+> R->LaTeX->imagemagic->Emacs->Ubuntu->github(git,svn)->markdown->pandoc->putty
+
+当走到putty这一步，基本上也能称之为半个合格的码农了，囧。
+
+Emacs是非常好用的文本编辑器，是著名黑客stallman的作品，同vi并称为linux体系同两大神器。用它来编辑任意文本有大量的定制扩展，试用起来非常方便，而最近老板也在推行用markdown来记录技术文档，并且在内网构建了基于 markdown 的 git wiki 系统。刚好自己也一直在用md，比如现在的这个搭建在github上的静态页面博客。
 
 # Emacs 的安装
 
@@ -25,84 +31,9 @@ published: true
 
 ## Emacs 的设置文档
 
-主要支持语法高亮，以及一些人性化的配置，不多说直接贴.emacs 文件（在/home/user目录，可能需要Ctrl+h显示隐藏文件）
+主要支持语法高亮，以及一些人性化的配置，不多说直接贴.emacs [文件](/upload/emacs)（改名为`.emacs`，在/home/user目录，可能需要Ctrl+h显示隐藏文件）
 
-	(r-mode nil)
-	;;不要滚动栏，现在都用滚轴鼠标了，可以不用滚动栏了
-	(scroll-bar-mode nil)
-
-	;;修改中文文本的行距,3个象素就可以了吧
-	(setq-default line-spacing 3)
-	;;启用C-x,C-v,C-s这些通用设置
-	;(cua-mode t)
-
-	;;颜色主题
-	(setq load-path (cons "/home/sunbjt/emacs" load-path))
-	(require 'color-theme)
-	(color-theme-deep-blue)
-
-	;; Setting English Font
-	(set-face-attribute
-	'default nil :font "Courier 14")
-
-	;; Chinese Font
-	(dolist (charset '(kana han symbol cjk-misc bopomofo))
-    (set-fontset-font (frame-parameter nil 'font)
-    charset
-    (font-spec :family "Microsoft Yahei" :size 16)))
-
-	;; 支持emacs和外部程序的粘贴
-	(setq x-select-enable-clipboard t)
-
-	;; 去掉工具栏
-	(tool-bar-mode nil)
-
-	;;去掉烦人的警告铃声
-	(setq visible-bell nil)
-
-	;;去掉Emacs和gnus启动时的引导界面
-	(setq inhibit-startup-message t)
-	(setq gnus-inhibit-startup-message t)
-
-	;;当指针到一个括号时，自动显示所匹配的另一个括号
-	(show-paren-mode 1)
-
-	;;所有的问题用y/n方式，不用yes/no方式。有点懒，只想输入一个字母
-	(fset 'yes-or-no-p 'y-or-n-p)
-
-	(setq
-    backup-by-copying t ; 自动备份
-    backup-directory-alist
-    '(("." . "/home/sunbjt/emacs/bak")) ; 自动备份在目录"D:/bak"下
-    delete-old-versions t ; 自动删除旧的备份文件
-    kept-new-versions 6 ; 保留最近的6个备份文件
-    kept-old-versions 2 ; 保留最早的2个备份文件
-    version-control t) ; 多次备份
-
-	;;自动格式化代码
-	(dolist (command '(yank yank-pop))
-	(eval
-	`(defadvice ,command (after indent-region activate)
-    (and (not current-prefix-arg)
-    (member major-mode
-    '(emacs-lisp-mode
-    lisp-mode
-    clojure-mode
-    scheme-mode
-    haskell-mode
-    ruby-mode
-    rspec-mode
-    python-mode
-    c-mode
-    c++-mode
-    objc-mode
-    latex-mode
-    js-mode
-    plain-tex-mode))
-    (let ((mark-even-if-inactive transient-mark-mode))
-    (indent-region (region-beginning) (region-end) nil))))))
-
-这里面有个emacs的颜色主题，需要下载color-theme.el，请自行搜索之，并拷贝至emacs可以找到的目录下。
+这里面有个emacs的颜色主题，用于代码高亮，需要下载color-theme.el，请自行搜索之，并拷贝至emacs可以找到的目录下。如果不许要注释掉相关行即可。
 
 ## 安装markdown-mode和pandoc
 

@@ -1,0 +1,112 @@
+
+;;外观设置
+(menu-bar-mode nil)
+;;不要滚动栏
+(scroll-bar-mode nil)
+;; 去掉工具栏
+(tool-bar-mode nil)
+
+;;去掉Emacs和gnus启动时的引导界面
+(setq inhibit-startup-message t)
+(setq gnus-inhibit-startup-message t)
+
+;;去掉烦人的警告铃声
+(setq visible-bell nil)
+
+;;设置开启的窗口大小
+(setq default-frame-alist 
+'((height . 55) (width . 190) (menu-bar-lines . 20) (tool-bar-lines . 0)))
+
+;;修改中文文本的行距,3个象素就可以了吧
+(setq-default line-spacing 3)
+;;启用C-x,C-v,C-s这些通用设置
+;(cua-mode t)
+
+;;颜色主题
+(setq load-path (cons "~/emacs" load-path))
+(require 'color-theme)
+(color-theme-deep-blue)
+
+;;设置markdown相关参数，需要在search目录下有 markdown-mode.el
+	(autoload 'markdown-mode "markdown-mode"
+		"Major mode for editing Markdown files" t)
+	(add-to-list 'auto-mode-alist '("\\.text\\'" . markdown-mode))
+	(add-to-list 'auto-mode-alist '("\\.markdown\\'" . markdown-mode))
+	(add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
+	(add-to-list 'auto-mode-alist '("\\.Rmd\\'" . markdown-mode))
+
+;;切换页面
+(global-set-key [C-tab] 'other-window)
+
+;; For Linux
+(global-set-key (kbd "<C-mouse-4>") 'text-scale-increase)
+(global-set-key (kbd "<C-mouse-5>") 'text-scale-decrease)
+
+;; Setting English Font
+(set-face-attribute
+  'default nil :font "Courier 14")
+ 
+;; Chinese Font
+(dolist (charset '(kana han symbol cjk-misc bopomofo))
+    (set-fontset-font (frame-parameter nil 'font)
+                      charset
+                      (font-spec :family "WenQuanYi Micro Hei Mono" :size 18)))
+
+;; 支持emacs和外部程序的粘贴
+(setq x-select-enable-clipboard t)
+
+;;当指针到一个括号时，自动显示所匹配的另一个括号
+(show-paren-mode 1)
+
+;;所有的问题用y/n方式，不用yes/no方式。有点懒，只想输入一个字母
+(fset 'yes-or-no-p 'y-or-n-p)
+
+;;备份设置
+(setq
+    backup-by-copying t ; 自动备份
+    backup-directory-alist
+    '(("." . "/home/liusizhe/bak")) ; 自动备份在目录"D:/bak"下
+    delete-old-versions t ; 自动删除旧的备份文件
+    kept-new-versions 6 ; 保留最近的6个备份文件
+    kept-old-versions 2 ; 保留最早的2个备份文件
+    version-control t) ; 多次备份
+
+;;格式化整个文件函数
+(defun indent-whole ()
+  (interactive)
+	(save-excursion
+	(indent-region (point-min) (point-max) nil))
+  (message "format successfully"))
+;;并绑定到F7键
+(global-set-key [f7] 'indent-whole)
+
+;; 将Shift Enter设置为执行R命令
+(setq ess-ask-for-ess-directory nil) 
+(setq ess-local-process-name "R") 
+(setq ansi-color-for-comint-mode 'filter) 
+(setq comint-scroll-to-bottom-on-input t) 
+(setq comint-scroll-to-bottom-on-output t) 
+(setq comint-move-point-for-output t)
+(defun my-ess-start-R () (interactive)
+(if (not (member "*R*" (mapcar (function buffer-name) (buffer-list))))
+(progn (delete-other-windows) 
+(setq w1 (selected-window)) 
+(setq w1name (buffer-name)) 
+(setq w2 (split-window w1 nil t)) (R) (set-window-buffer w2 "*R*") (set-window-buffer w1 w1name)))) (defun my-ess-eval () (interactive) (my-ess-start-R) (if (and transient-mark-mode mark-active) (call-interactively 'ess-eval-region) (call-interactively 'ess-eval-line-and-step))) (add-hook 'ess-mode-hook '(lambda() (local-set-key [(shift return)] 'my-ess-eval))) (add-hook 'inferior-ess-mode-hook '(lambda() (local-set-key [C-up] 'comint-previous-input) (local-set-key [C-down] 'comint-next-input))) (add-hook 'Rnw-mode-hook '(lambda() (local-set-key [(shift return)] 'my-ess-eval))) (require 'ess-site)
+
+
+;;markdown的customize-mode设置
+(custom-set-variables
+  ;; custom-set-variables was added by Custom.
+  ;; If you edit it by hand, you could mess it up, so be careful.
+  ;; Your init file should contain only one such instance.
+  ;; If there is more than one, they won't work right.
+ '(markdown-command "pandoc -f markdown -t html -s -c /home/liusizhe/emacs/style.css --mathjax --highlight-style espresso"))
+(custom-set-faces
+  ;; custom-set-faces was added by Custom.
+  ;; If you edit it by hand, you could mess it up, so be careful.
+  ;; Your init file should contain only one such instance.
+  ;; If there is more than one, they won't work right.
+ )
+
+
