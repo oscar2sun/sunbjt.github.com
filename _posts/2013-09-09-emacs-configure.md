@@ -2,8 +2,8 @@
 layout: post
 title: 使用Emacs编辑markdown文件
 tags: 
-- bigdata
-- business
+- emacs
+- markdown
 status: publish
 type: post
 published: true
