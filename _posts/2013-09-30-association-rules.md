@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: 关联规则的常用解法
+title: 关联规则的常用算法
 tags: 
 - association rules
 - apriori
@@ -40,32 +40,32 @@ Apriori算法是一种最有影响的挖掘 0-1 布尔关联规则频繁项集�
 
 首先我们先要计算发生频数（或者叫做support）
 
-|item|support|
-|---|-------|
-|{1}|3|
-|{2}|6|
-|{3}|4|
-|{4}|5|
+item|support
+---|-------
+{1}|3
+{2}|6
+{3}|4
+{4}|5
 
 1项集的最低频数是3，我们姑且认为他们都是频繁的。因此我们找到1项集所有可能组合的pairs：
 
-|item|support|
-|---|-------|
-|{1,2}|3|
-|{1,3}|1|
-|{1,4}|2|
-|{2,3}|3|
-|{2,4}|4|
-|{3,4}|3|
+item|support
+---|-------
+{1,2}|3
+{1,3}|1
+{1,4}|2
+{2,3}|3
+{2,4}|4
+{3,4}|3
 
 在这里，{1,3}, {1,4} 不满足support大于3的设定（一般support是3/(3 + 6 + 4 + 5)），因此还剩下的频繁项集是：
 
-|item|support|
-|---|-------|
-|{1,2}|3|
-|{2,3}|3|
-|{2,4}|4|
-|{3,4}|3|
+item|support
+---|-------
+{1,2}|3
+{2,3}|3
+{2,4}|4
+{3,4}|3
 
 也就是说，包含{1,3}, {1,4}的项集也不可能是频繁的，这两条规则被prune掉了；只有{2,3,4} 是可能频繁的，但它的频数只有2，也不满足support条件，因此迭代停止。
 
@@ -95,14 +95,14 @@ FP growth 算法包含两部分：存储的FP tree 和对应的FP 算法：
 
 我们拿一个例子来说明问题。假如我们数据库中记录的交易信息如下（最低support为3）：
 
-| No. | transactions|Sort|
-|-----|------|------|
-|1	|ABDE|BEAD|
-|2	|BCE|BEC|
-|3	|ABDE|BEAD|
-|4	|ABCE|BEAC|
-|5	|ABCDE|BEACD|
-|6	|BCD|BCD|
+ No. | transactions|Sort
+-----|------|------
+1	|ABDE|BEAD
+2	|BCE|BEC
+3	|ABDE|BEAD
+4	|ABCE|BEAC
+5	|ABCDE|BEACD
+6	|BCD|BCD
 
 首先我们先要了解所有的一项集出现的频率（support，重新排序的结果见上图的Sort部分）：B(6), E(5), A(4), C(4), D(4)。
 
@@ -148,9 +148,15 @@ $ (BEA:2),(BEAC:1),(BC:1) $
 	make install
 	./fpgrowth -m2 -n5 -s0.075 /home/liusizhe/experiment/census.dat frequent
 
-参数的话，可以直接参考fpgrowth的帮助，比如上面m对应的是最小项集，n对应的最大项集，s是support值
+参数的话，可以直接参考fpgrowth的帮助，比如上面m对应的是最小项集，n对应的最大项集，s是support值，后面接了inputfile和outputfile两个文件。
 
 ------
-参考目录和延伸阅读：
+**参考目录和延伸阅读**：
 
-* 
+* http://en.wikipedia.org/wiki/Association_rule_learning
+* http://en.wikipedia.org/wiki/Apriori_algorithm
+* http://www.borgelt.net//courses.html#fpm
+
+_<the end>_
+
+
