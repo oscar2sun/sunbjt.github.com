@@ -10,9 +10,9 @@ type: post
 published: true
 ---
 
-关联规则（association rules）是一种广泛使用的数据挖掘方法，比如在购物篮分析（Market basket Analysis），网络连接分析（Web link），基因分析。购物篮分析，典型的场景就是要找出常常被一起购买的商品集合。
+关联规则（association rules）是一种广泛使用的模式识别方法，比如在购物篮分析（Market basket Analysis），网络连接分析（Web link），基因分析。我们常常提到的购物篮分析，它的典型的应用场景就是要找出被一起购买的商品集合。
 
-关联规则的可能的作用有：
+关联规则的可能的应用场景有：
 
 * 优化货架商品摆放，或优化邮寄商品目录的内容
 * 交叉销售和捆绑销售
@@ -20,7 +20,7 @@ published: true
 
 # 关于交易数据的表述形式
 
-先讲最简单的三种形式，水平表述、垂直表述和矩阵表述，直接看图：
+先说最简单的三种形式，水平表述、垂直表述和矩阵表述，直接看图：
 
 ![](/upload/pic/trans1.png)
 
@@ -31,7 +31,7 @@ published: true
 * 排序表述（lexicographically sorted）
 * 前缀树表述（prefix tree）
 
-这三种数据表述形式（水平、垂直、前缀树）分别对应算法：apriori、Eclat 和 FP growth，本篇主要描述 apriori 和 FP growth。
+这三种数据表述形式（水平、垂直、前缀树）分别对应算法：apriori、Eclat 和 FP growth，本篇主要描述 apriori 和 FP growth 两种算法。
 
 # Apriori 算法
 Apriori算法是一种最有影响的挖掘 0-1 布尔关联规则频繁项集的算法。这种算法利用了频繁项集性质的先验知识（因此叫做priori）。Apriori使用了自底向上的实现方式（如果集合 I 不是频繁项集，那么包含 I 的更大的集合也不可能是频繁项集），k - 1 项集用于探索 k 项集。首先，找出频繁 1 项集的集合($L_1$)，$L_1$用于找频繁 2 项集的集合 $L_2$，而 $L_2$ 用于找 $L_3$，如此下去，直到不能找到满足条件的频繁 k 项集。搜索每个 $L_k$ 需要一次全表数据库扫描。
@@ -148,7 +148,7 @@ $ (BEA:2),(BEAC:1),(BC:1) $
 	make install
 	./fpgrowth -m2 -n5 -s0.075 /home/liusizhe/experiment/census.dat frequent
 
-参数的话，可以直接参考fpgrowth的帮助，比如上面m对应的是最小项集，n对应的最大项集，s是support值，后面接了inputfile和outputfile两个文件。
+参数的话，可以直接参考 fpgrowth 的帮助，比如上面m对应的是最小项集，n对应的最大项集，s是support值，后面接了 inputfile 和 outputfile 两个文件。
 
 ------
 **参考目录和延伸阅读**：
@@ -157,6 +157,5 @@ $ (BEA:2),(BEAC:1),(BC:1) $
 * http://en.wikipedia.org/wiki/Apriori_algorithm
 * http://www.borgelt.net//courses.html#fpm
 
-_<the end>_
 
 
