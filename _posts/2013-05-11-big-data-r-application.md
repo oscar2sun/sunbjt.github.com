@@ -71,6 +71,6 @@ R的位置在哪里？先让我们看看所谓的`大数据`是如何从企业�
 
 我们有时间再聊～
 
-附下载：[R语言数据挖掘@京东商城](/upload/pdf/bigdata r application.pdf)
+附下载：[R语言数据挖掘@京东商城](/upload/pdf/bigdata_r_application.pdf)
 
 
