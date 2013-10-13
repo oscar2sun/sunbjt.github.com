@@ -151,6 +151,8 @@ $ (BEA:2),(BEAC:1),(BC:1) $
 参数的话，可以直接参考 fpgrowth 的帮助，比如上面m对应的是最小项集，n对应的最大项集，s是support值，后面接了 inputfile 和 outputfile 两个文件。
 
 ------
+当然，如果有必要的话，上面的算法都可以写到并行架构，比如 map-reduce。甚至如果只是求解二项集，在不同的语言环境下甚至几行代码就可以搞定。
+
 **参考目录和延伸阅读**：
 
 * http://en.wikipedia.org/wiki/Association_rule_learning
