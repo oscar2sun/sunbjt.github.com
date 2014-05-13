@@ -55,8 +55,9 @@ markdown的那个程序也可以类似的安装，但不能像pandoc一样增加
 
 一般是通过 `M-x customize-mode` 来修改，将Markdown Command 修改为
 
-	pandoc -f markdown -t html -s -c /home/sunbjt/emacs/style.css --mathjax --highlight-style espresso
+	pandoc -s -c /home/sunbjt/emacs/style.css --mathjax --highlight-style espresso
 
+（或者是修改.emacs 文件）
 上面这句话有两个位置需要注意：
 
 - style.css，可以自定义你的生成的html文件的样式
@@ -100,3 +101,14 @@ markdown的那个程序也可以类似的安装，但不能像pandoc一样增加
 	}
 
 就这样，全部工作都在Ubuntu下了~~
+
+
+# 其他
+
+ubuntu 平台下 Courier New 字体
+
+	apt-get install ttf-mscorefonts-installer 
+
+Google 拼音
+
+	sudo apt-get install ibus-googlepinyin

@@ -26,11 +26,15 @@ OpenBLAS 的编译还是比较方便的，如果没有特殊要求，下载直�
 
 OpenBLAS 环境安装完毕后，即可安装 R 环境，同一般安装 R 类似，需要增加如下参数：
 
-    ./configure --disable-nls --with-blas="-lopenblas" --with-lapack --enable-R-shlib
+    ./configure --disable-nls --with-blas="-lopenblas" --with-lapack --enable-R-shlib 
     make
     make install
 
 编译的时候可能会报 BLAS 相关的 so 找不到，按照错误代码信息将文件拷贝至目录即可（或建 link）。
+
+如果需要增加tcltk支持（比如说要使用sqldf包），在configure时还需要增加如下参数：
+
+		--with-tcl-config=/usr/lib/tcl8.5/tclConfig.sh --with-tk-config=/usr/lib/tk8.5/tkConfig.sh
 
 接下来我们对比一下个人电脑的两种平台的计算情况：
 
